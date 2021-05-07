@@ -1,0 +1,12 @@
+scripts:
+  start:
+    cmd: deno run index.ts
+    tsconfig: tsconfig.json
+    allow:
+      - env
+      - net
+  test:
+    cmd: deno test
+    tsconfig: tsconfig.json
+    allow:
+      - read

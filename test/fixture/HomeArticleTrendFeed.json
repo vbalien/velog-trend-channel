@@ -1,0 +1,984 @@
+{
+  "trend": {
+    "edges": [
+      {
+        "hasCodeBlock": true,
+        "isLikedByViewer": false,
+        "isNewArrival": false,
+        "followingLikers": [],
+        "node": {
+          "encryptedId": "qsbzQdPlq2vvm5euyhNEcZ9/zbtbKkrbnQ==--+QVh3Ou0rbxVVki3--OtVC4xBtpYIm1ydBiJMLLA==",
+          "isLikedByViewer": false,
+          "isStockableByViewer": false,
+          "isStockedByViewer": false,
+          "likesCount": 112,
+          "linkUrl": "https://qiita.com/e869120/items/8be6521e72025d7b2a13",
+          "publishedAt": "2021-05-05T12:10:38Z",
+          "title": "デバッグ力を高める！　～5 年間の経験から学んだ、競プロ・アルゴリズム実装におけるバグ取りの戦略～",
+          "uuid": "8be6521e72025d7b2a13",
+          "author": {
+            "displayName": "@e869120",
+            "isUser": true,
+            "linkUrl": "https://qiita.com/e869120",
+            "profileImageUrl": "https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/507979/profile-images/1578377269",
+            "urlName": "e869120"
+          },
+          "recentlyFollowingLikers": [],
+          "tags": [
+            {
+              "urlName": "%e3%82%a2%e3%83%ab%e3%82%b4%e3%83%aa%e3%82%ba%e3%83%a0",
+              "name": "アルゴリズム"
+            },
+            { "urlName": "atcoder", "name": "AtCoder" },
+            {
+              "urlName": "%e3%83%87%e3%83%90%e3%83%83%e3%82%b0",
+              "name": "デバッグ"
+            },
+            {
+              "urlName": "%e7%ab%b6%e6%8a%80%e3%83%97%e3%83%ad%e3%82%b0%e3%83%a9%e3%83%9f%e3%83%b3%e3%82%b0",
+              "name": "競技プログラミング"
+            },
+            { "urlName": "%e5%ae%9f%e8%a3%85", "name": "実装" }
+          ]
+        }
+      },
+      {
+        "hasCodeBlock": true,
+        "isLikedByViewer": false,
+        "isNewArrival": false,
+        "followingLikers": [],
+        "node": {
+          "encryptedId": "mi1DtFeCR9P+We3LEytXC2N8tvDa3dNwRw==--AYc6ibTLgrGlSql3--AyRba611MgTrf/M+ovI40g==",
+          "isLikedByViewer": false,
+          "isStockableByViewer": false,
+          "isStockedByViewer": false,
+          "likesCount": 135,
+          "linkUrl": "https://qiita.com/H20/items/1a066e242815961cd043",
+          "publishedAt": "2021-05-04T11:26:59Z",
+          "title": "あのアルゴリズムはどこ？　Pythonを使用してAtCoderの緑色や水色を目指す方に、30以上のアルゴリズムスニペットと100問以上の問題（ACコード付き）を紹介！",
+          "uuid": "1a066e242815961cd043",
+          "author": {
+            "displayName": "@H20",
+            "isUser": true,
+            "linkUrl": "https://qiita.com/H20",
+            "profileImageUrl": "https://pbs.twimg.com/profile_images/1344087554371407875/IQXA4spl_bigger.jpg",
+            "urlName": "H20"
+          },
+          "recentlyFollowingLikers": [],
+          "tags": [
+            { "urlName": "python", "name": "Python" },
+            {
+              "urlName": "%e3%82%a2%e3%83%ab%e3%82%b4%e3%83%aa%e3%82%ba%e3%83%a0",
+              "name": "アルゴリズム"
+            },
+            { "urlName": "atcoder", "name": "AtCoder" },
+            {
+              "urlName": "%e7%ab%b6%e6%8a%80%e3%83%97%e3%83%ad%e3%82%b0%e3%83%a9%e3%83%9f%e3%83%b3%e3%82%b0",
+              "name": "競技プログラミング"
+            },
+            { "urlName": "pypy", "name": "Pypy" }
+          ]
+        }
+      },
+      {
+        "hasCodeBlock": true,
+        "isLikedByViewer": false,
+        "isNewArrival": false,
+        "followingLikers": [],
+        "node": {
+          "encryptedId": "9qIXevHGXtsHjUrn2foxRi6PMLwdC3fgHg==--cpDH4QOWHS4ysTRQ--QiFpOnd6t8tyHMOSiVlYFg==",
+          "isLikedByViewer": false,
+          "isStockableByViewer": false,
+          "isStockedByViewer": false,
+          "likesCount": 26,
+          "linkUrl": "https://qiita.com/yoshi389111/items/29ade2f62483e9c095d9",
+          "publishedAt": "2021-05-05T08:22:40Z",
+          "title": "[ネタ]復活の呪文を解析してみたよ",
+          "uuid": "29ade2f62483e9c095d9",
+          "author": {
+            "displayName": "@yoshi389111",
+            "isUser": true,
+            "linkUrl": "https://qiita.com/yoshi389111",
+            "profileImageUrl": "https://qiita-image-store.s3.amazonaws.com/0/97350/profile-images/1473707172",
+            "urlName": "yoshi389111"
+          },
+          "recentlyFollowingLikers": [],
+          "tags": [
+            { "urlName": "javascript", "name": "JavaScript" },
+            { "urlName": "typescript", "name": "TypeScript" },
+            { "urlName": "%e3%83%9d%e3%82%a8%e3%83%a0", "name": "ポエム" },
+            { "urlName": "%e3%83%8d%e3%82%bf", "name": "ネタ" },
+            { "urlName": "react", "name": "React" }
+          ]
+        }
+      },
+      {
+        "hasCodeBlock": true,
+        "isLikedByViewer": false,
+        "isNewArrival": false,
+        "followingLikers": [],
+        "node": {
+          "encryptedId": "wF3q/Sqsvu4PwftBJDASYg/cTqAIchfWEg==--pOJthcB0RaS3oiFK--vuKGfqC40G4rr9ZSyTfQEA==",
+          "isLikedByViewer": false,
+          "isStockableByViewer": false,
+          "isStockedByViewer": false,
+          "likesCount": 30,
+          "linkUrl": "https://qiita.com/ksato9700/items/3ce4c68c0d713874b693",
+          "publishedAt": "2021-05-04T11:58:04Z",
+          "title": "Python3.10の新機能(2) - Pythonにmatch文がやってくる",
+          "uuid": "3ce4c68c0d713874b693",
+          "author": {
+            "displayName": "@ksato9700",
+            "isUser": true,
+            "linkUrl": "https://qiita.com/ksato9700",
+            "profileImageUrl": "https://qiita-image-store.s3.amazonaws.com/0/30342/profile-images/1473685481",
+            "urlName": "ksato9700"
+          },
+          "recentlyFollowingLikers": [],
+          "tags": [
+            { "urlName": "python", "name": "Python" },
+            { "urlName": "python3", "name": "Python3" },
+            { "urlName": "python3.10", "name": "Python3.10" }
+          ]
+        }
+      },
+      {
+        "hasCodeBlock": true,
+        "isLikedByViewer": false,
+        "isNewArrival": false,
+        "followingLikers": [],
+        "node": {
+          "encryptedId": "mHOqyTyIwVxBRMyG1Hy9U8HkOlyOIDEE+Q==--jXZQMA8X3oGBNPZh--6hbejsM9rXXuXmIOCOugdg==",
+          "isLikedByViewer": false,
+          "isStockableByViewer": false,
+          "isStockedByViewer": false,
+          "likesCount": 51,
+          "linkUrl": "https://qiita.com/yoship1639/items/32ca894bda3b0db54a7b",
+          "publishedAt": "2021-05-03T08:12:50Z",
+          "title": "【Unity】最強のメッセージングライブラリ「MessagePipe」のメリットと使いどころを解説してみた",
+          "uuid": "32ca894bda3b0db54a7b",
+          "author": {
+            "displayName": "@yoship1639",
+            "isUser": true,
+            "linkUrl": "https://qiita.com/yoship1639",
+            "profileImageUrl": "https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/113595/profile-images/1594732889",
+            "urlName": "yoship1639"
+          },
+          "recentlyFollowingLikers": [],
+          "tags": [
+            { "urlName": "csharp", "name": "C#" },
+            {
+              "urlName": "%e3%82%aa%e3%83%96%e3%82%b8%e3%82%a7%e3%82%af%e3%83%88%e6%8c%87%e5%90%91",
+              "name": "オブジェクト指向"
+            },
+            { "urlName": "unity", "name": "Unity" },
+            { "urlName": "unirx", "name": "UniRx" },
+            { "urlName": "messagepipe", "name": "MessagePipe" }
+          ]
+        }
+      },
+      {
+        "hasCodeBlock": true,
+        "isLikedByViewer": false,
+        "isNewArrival": false,
+        "followingLikers": [],
+        "node": {
+          "encryptedId": "iLYx/fgfexYN2XkauPH1nym+DY4IUjjYxQ==--ksXYNSCxVrr7ykoj--yaY0MPxMkoO6nHweGF/BeA==",
+          "isLikedByViewer": false,
+          "isStockableByViewer": false,
+          "isStockedByViewer": false,
+          "likesCount": 10,
+          "linkUrl": "https://qiita.com/lagenorhynque/items/a752ffae490e83ebe70d",
+          "publishedAt": "2021-05-05T12:00:29Z",
+          "title": "Clojureで快適なREPL駆動開発のために\"reloaded workflow\"を実践しよう",
+          "uuid": "a752ffae490e83ebe70d",
+          "author": {
+            "displayName": "@lagenorhynque",
+            "isUser": true,
+            "linkUrl": "https://qiita.com/lagenorhynque",
+            "profileImageUrl": "https://qiita-image-store.s3.amazonaws.com/0/33430/profile-images/1473686123",
+            "urlName": "lagenorhynque"
+          },
+          "recentlyFollowingLikers": [],
+          "tags": [
+            { "urlName": "clojure", "name": "Clojure" },
+            { "urlName": "repl", "name": "REPL" },
+            { "urlName": "mount", "name": "mount" },
+            { "urlName": "component", "name": "Component" },
+            { "urlName": "integrant", "name": "integrant" }
+          ]
+        }
+      },
+      {
+        "hasCodeBlock": true,
+        "isLikedByViewer": false,
+        "isNewArrival": false,
+        "followingLikers": [],
+        "node": {
+          "encryptedId": "SKwwal9eKxhJM/WCPfGc9Ex59bGuSCpxKg==--BudE7KLplqR24YVI--vcmTkvVGtW4yGAH8rQJeng==",
+          "isLikedByViewer": false,
+          "isStockableByViewer": false,
+          "isStockedByViewer": false,
+          "likesCount": 13,
+          "linkUrl": "https://qiita.com/mumucochimu/items/5b78416fd0a8c501de58",
+          "publishedAt": "2021-05-04T07:26:13Z",
+          "title": "分かったつもりで分かっていなかったGit、GitHub②",
+          "uuid": "5b78416fd0a8c501de58",
+          "author": {
+            "displayName": "@mumucochimu",
+            "isUser": true,
+            "linkUrl": "https://qiita.com/mumucochimu",
+            "profileImageUrl": "https://pbs.twimg.com/profile_images/1350669878567440387/xOZ_zzQF_bigger.jpg",
+            "urlName": "mumucochimu"
+          },
+          "recentlyFollowingLikers": [],
+          "tags": [
+            { "urlName": "git", "name": "Git" },
+            { "urlName": "github", "name": "GitHub" }
+          ]
+        }
+      },
+      {
+        "hasCodeBlock": false,
+        "isLikedByViewer": false,
+        "isNewArrival": false,
+        "followingLikers": [],
+        "node": {
+          "encryptedId": "Es8NohXlLEOng2UBmRjJAAto7WrftDXKBw==--WVSXfwP62TywngLn--aZ2l863oNso2gcWZsQlhBg==",
+          "isLikedByViewer": false,
+          "isStockableByViewer": false,
+          "isStockedByViewer": false,
+          "likesCount": 12,
+          "linkUrl": "https://qiita.com/anchor-cable/items/4be34b75d726aee89190",
+          "publishedAt": "2021-05-05T03:11:32Z",
+          "title": "ワイ「何でsalt無しでHash::checkできるんや？？？」",
+          "uuid": "4be34b75d726aee89190",
+          "author": {
+            "displayName": "@anchor-cable",
+            "isUser": true,
+            "linkUrl": "https://qiita.com/anchor-cable",
+            "profileImageUrl": "https://qiita-image-store.s3.amazonaws.com/0/224108/profile-images/1540899598",
+            "urlName": "anchor-cable"
+          },
+          "recentlyFollowingLikers": [],
+          "tags": [
+            { "urlName": "php", "name": "PHP" },
+            { "urlName": "laravel", "name": "Laravel" },
+            { "urlName": "hash", "name": "hash" }
+          ]
+        }
+      },
+      {
+        "hasCodeBlock": true,
+        "isLikedByViewer": false,
+        "isNewArrival": false,
+        "followingLikers": [],
+        "node": {
+          "encryptedId": "EzmC6lMtB65K+uh03UVkrWIVSpY5UGXGMw==--2OGyDlK02RdSNKz/--cnYPEOEKYIxjHF6ePqrTjQ==",
+          "isLikedByViewer": false,
+          "isStockableByViewer": false,
+          "isStockedByViewer": false,
+          "likesCount": 27,
+          "linkUrl": "https://qiita.com/omiita/items/01687855d7891bcf5fed",
+          "publishedAt": "2021-05-04T02:02:23Z",
+          "title": "Transformerに畳み込みを！新たに誕生した画像認識モデルCvTを解説！",
+          "uuid": "01687855d7891bcf5fed",
+          "author": {
+            "displayName": "@omiita",
+            "isUser": true,
+            "linkUrl": "https://qiita.com/omiita",
+            "profileImageUrl": "https://s3-ap-northeast-1.amazonaws.com/qiita-image-store/0/412028/d4a93533f86fb8b9ca5a0d05ccb3a47076aefc25/large.png?1572270873",
+            "urlName": "omiita"
+          },
+          "recentlyFollowingLikers": [],
+          "tags": [
+            {
+              "urlName": "%e6%a9%9f%e6%a2%b0%e5%ad%a6%e7%bf%92",
+              "name": "機械学習"
+            },
+            { "urlName": "deeplearning", "name": "DeepLearning" },
+            {
+              "urlName": "%e7%94%bb%e5%83%8f%e8%aa%8d%e8%ad%98",
+              "name": "画像認識"
+            },
+            {
+              "urlName": "%e8%ab%96%e6%96%87%e8%aa%ad%e3%81%bf",
+              "name": "論文読み"
+            },
+            { "urlName": "transformer", "name": "Transformer" }
+          ]
+        }
+      },
+      {
+        "hasCodeBlock": true,
+        "isLikedByViewer": false,
+        "isNewArrival": false,
+        "followingLikers": [],
+        "node": {
+          "encryptedId": "WW3pIPD+k/6CrgoRi1vwpTKcmBCwwzxaXA==--OzygXaEPtFa+HaRl--brAPsWxJF0YgaP3vyRQMfQ==",
+          "isLikedByViewer": false,
+          "isStockableByViewer": false,
+          "isStockedByViewer": false,
+          "likesCount": 7,
+          "linkUrl": "https://qiita.com/179Bell/items/2bf6a58d9314f5f00eeb",
+          "publishedAt": "2021-05-05T05:02:29Z",
+          "title": "【Laravel】論理削除を利用して退会機能を実装する",
+          "uuid": "2bf6a58d9314f5f00eeb",
+          "author": {
+            "displayName": "@179Bell",
+            "isUser": true,
+            "linkUrl": "https://qiita.com/179Bell",
+            "profileImageUrl": "https://pbs.twimg.com/profile_images/1344229641930768385/wlj1wRtG_bigger.jpg",
+            "urlName": "179Bell"
+          },
+          "recentlyFollowingLikers": [],
+          "tags": [
+            { "urlName": "laravel", "name": "Laravel" },
+            {
+              "urlName": "%e8%ab%96%e7%90%86%e5%89%8a%e9%99%a4",
+              "name": "論理削除"
+            },
+            {
+              "urlName": "%e3%82%a2%e3%82%a6%e3%83%88%e3%83%97%e3%83%83%e3%83%88",
+              "name": "アウトプット"
+            }
+          ]
+        }
+      },
+      {
+        "hasCodeBlock": false,
+        "isLikedByViewer": false,
+        "isNewArrival": false,
+        "followingLikers": [],
+        "node": {
+          "encryptedId": "Csg1EMbu5nsgzxWyaeC8BN0FjfZ1nStDag==--Yf7pv5YpP1dYoafd--OCyC2Um5w4YIEcE6xPyqNQ==",
+          "isLikedByViewer": false,
+          "isStockableByViewer": false,
+          "isStockedByViewer": false,
+          "likesCount": 14,
+          "linkUrl": "https://qiita.com/ponnhide/items/ced94c5fd105275f6c25",
+          "publishedAt": "2021-05-05T14:58:58Z",
+          "title": "データの加工と可視化のスクリプトは分けようよという話。",
+          "uuid": "ced94c5fd105275f6c25",
+          "author": {
+            "displayName": "@ponnhide",
+            "isUser": true,
+            "linkUrl": "https://qiita.com/ponnhide",
+            "profileImageUrl": "https://avatars.githubusercontent.com/u/2762763?v=3",
+            "urlName": "ponnhide"
+          },
+          "recentlyFollowingLikers": [],
+          "tags": [
+            { "urlName": "python", "name": "Python" },
+            { "urlName": "%e3%83%9d%e3%82%a8%e3%83%a0", "name": "ポエム" },
+            {
+              "urlName": "%e3%83%87%e3%83%bc%e3%82%bf%e5%88%86%e6%9e%90",
+              "name": "データ分析"
+            },
+            { "urlName": "bioinformatics", "name": "bioinformatics" },
+            { "urlName": "seaborn", "name": "seaborn" }
+          ]
+        }
+      },
+      {
+        "hasCodeBlock": true,
+        "isLikedByViewer": false,
+        "isNewArrival": false,
+        "followingLikers": [],
+        "node": {
+          "encryptedId": "HJrZDJgt6sIpLiwTXgs+6d4U1GP9ihsupQ==--pjpvgGawW4JWBszf--ahNNssTUAVxWd5W98IQocA==",
+          "isLikedByViewer": false,
+          "isStockableByViewer": false,
+          "isStockedByViewer": false,
+          "likesCount": 15,
+          "linkUrl": "https://qiita.com/soraie/items/9d5fc4ef40889c11a2b8",
+          "publishedAt": "2021-05-04T09:37:15Z",
+          "title": "Clash of Codeへの誘い",
+          "uuid": "9d5fc4ef40889c11a2b8",
+          "author": {
+            "displayName": "@soraie",
+            "isUser": true,
+            "linkUrl": "https://qiita.com/soraie",
+            "profileImageUrl": "https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/639961/profile-images/1620042126",
+            "urlName": "soraie"
+          },
+          "recentlyFollowingLikers": [],
+          "tags": [
+            { "urlName": "ruby", "name": "Ruby" },
+            { "urlName": "cpp", "name": "C++" },
+            {
+              "urlName": "%e7%ab%b6%e6%8a%80%e3%83%97%e3%83%ad%e3%82%b0%e3%83%a9%e3%83%9f%e3%83%b3%e3%82%b0",
+              "name": "競技プログラミング"
+            }
+          ]
+        }
+      },
+      {
+        "hasCodeBlock": false,
+        "isLikedByViewer": false,
+        "isNewArrival": false,
+        "followingLikers": [],
+        "node": {
+          "encryptedId": "m9L5B+1EqY+9GFzFT4FaEL5q2NgkUaIaFQ==--xH8RObzvkpdxlp+f--KQzghmH0EKebYoopU36xBQ==",
+          "isLikedByViewer": false,
+          "isStockableByViewer": false,
+          "isStockedByViewer": false,
+          "likesCount": 8,
+          "linkUrl": "https://qiita.com/DeepTama/items/937e13f6beda79be17d8",
+          "publishedAt": "2021-05-04T13:49:34Z",
+          "title": "物体検出DETR （DEtection TRansformer）",
+          "uuid": "937e13f6beda79be17d8",
+          "author": {
+            "displayName": "@DeepTama",
+            "isUser": true,
+            "linkUrl": "https://qiita.com/DeepTama",
+            "profileImageUrl": "https://s3-ap-northeast-1.amazonaws.com/qiita-image-store/0/1413278/5117de30a194429b3f91c65a4052b0a61cb80aa3/x_large.png?1619693411",
+            "urlName": "DeepTama"
+          },
+          "recentlyFollowingLikers": [],
+          "tags": [{ "urlName": "python", "name": "Python" }]
+        }
+      },
+      {
+        "hasCodeBlock": true,
+        "isLikedByViewer": false,
+        "isNewArrival": false,
+        "followingLikers": [],
+        "node": {
+          "encryptedId": "YqZ5nRqIVKnrKAcQpCLs5dEfmg7hsaSJfw==--N9hV/DMWnF+FSB9x--IUs5vQ9NRs8o7Y6OLT/DXg==",
+          "isLikedByViewer": false,
+          "isStockableByViewer": false,
+          "isStockedByViewer": false,
+          "likesCount": 6,
+          "linkUrl": "https://qiita.com/mogiken/items/54bc24669068ecadf957",
+          "publishedAt": "2021-05-05T07:12:03Z",
+          "title": "シンプルなNFTをデプロイするサンプルプログラムの作成手順と解説",
+          "uuid": "54bc24669068ecadf957",
+          "author": {
+            "displayName": "@mogiken",
+            "isUser": true,
+            "linkUrl": "https://qiita.com/mogiken",
+            "profileImageUrl": "https://qiita-image-store.s3.amazonaws.com/0/23175/profile-images/1473683774",
+            "urlName": "mogiken"
+          },
+          "recentlyFollowingLikers": [],
+          "tags": [
+            { "urlName": "react", "name": "React" },
+            { "urlName": "solidity", "name": "solidity" },
+            { "urlName": "nft", "name": "NFT" },
+            { "urlName": "hardhat", "name": "hardhat" }
+          ]
+        }
+      },
+      {
+        "hasCodeBlock": false,
+        "isLikedByViewer": false,
+        "isNewArrival": false,
+        "followingLikers": [],
+        "node": {
+          "encryptedId": "eSYwtOmwLS2Ef1cfbxMN9ik0baFGOpajUg==--z/ro+R6Fak20aU0q--Hyi3SyxnSlNrDp1UAw646w==",
+          "isLikedByViewer": false,
+          "isStockableByViewer": false,
+          "isStockedByViewer": false,
+          "likesCount": 7,
+          "linkUrl": "https://qiita.com/DeepTama/items/aab46729d2aa51a8954d",
+          "publishedAt": "2021-05-04T13:48:24Z",
+          "title": " 物体検出 SSD（Single Shot multibox Detector）",
+          "uuid": "aab46729d2aa51a8954d",
+          "author": {
+            "displayName": "@DeepTama",
+            "isUser": true,
+            "linkUrl": "https://qiita.com/DeepTama",
+            "profileImageUrl": "https://s3-ap-northeast-1.amazonaws.com/qiita-image-store/0/1413278/5117de30a194429b3f91c65a4052b0a61cb80aa3/x_large.png?1619693411",
+            "urlName": "DeepTama"
+          },
+          "recentlyFollowingLikers": [],
+          "tags": [{ "urlName": "python", "name": "Python" }]
+        }
+      },
+      {
+        "hasCodeBlock": true,
+        "isLikedByViewer": false,
+        "isNewArrival": false,
+        "followingLikers": [],
+        "node": {
+          "encryptedId": "W+K23jTtobcQPk62ypFHnsBkKWFHhbFbuA==--vVhgU38/l9a958n2--y/xKJAofebiwsGY7p2DIBQ==",
+          "isLikedByViewer": false,
+          "isStockableByViewer": false,
+          "isStockedByViewer": false,
+          "likesCount": 5,
+          "linkUrl": "https://qiita.com/sohhprog/items/4fda32e0b4d16de5aab9",
+          "publishedAt": "2021-05-05T03:27:49Z",
+          "title": "【Nuxt.js】nuxt.config.jsに何が書かれているのか",
+          "uuid": "4fda32e0b4d16de5aab9",
+          "author": {
+            "displayName": "@sohhprog",
+            "isUser": true,
+            "linkUrl": "https://qiita.com/sohhprog",
+            "profileImageUrl": "https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/681029/profile-images/1603771357",
+            "urlName": "sohhprog"
+          },
+          "recentlyFollowingLikers": [],
+          "tags": [
+            { "urlName": "javascript", "name": "JavaScript" },
+            { "urlName": "vue.js", "name": "Vue.js" },
+            { "urlName": "nuxt.js", "name": "nuxt.js" }
+          ]
+        }
+      },
+      {
+        "hasCodeBlock": false,
+        "isLikedByViewer": false,
+        "isNewArrival": false,
+        "followingLikers": [],
+        "node": {
+          "encryptedId": "rG20mwxMoZiLVhQdwlqLPAm27RIb9PFl9A==--u0E/3TPMvEpLtLWl--OrfH+hx7TfB7z0n7Q9kQVw==",
+          "isLikedByViewer": false,
+          "isStockableByViewer": false,
+          "isStockedByViewer": false,
+          "likesCount": 4,
+          "linkUrl": "https://qiita.com/DeepTama/items/c63f5087f4c1aabccddf",
+          "publishedAt": "2021-05-04T13:50:08Z",
+          "title": "物体検出SimCLR（A Simple Framework for Contrastive Learning of Visual Representations）",
+          "uuid": "c63f5087f4c1aabccddf",
+          "author": {
+            "displayName": "@DeepTama",
+            "isUser": true,
+            "linkUrl": "https://qiita.com/DeepTama",
+            "profileImageUrl": "https://s3-ap-northeast-1.amazonaws.com/qiita-image-store/0/1413278/5117de30a194429b3f91c65a4052b0a61cb80aa3/x_large.png?1619693411",
+            "urlName": "DeepTama"
+          },
+          "recentlyFollowingLikers": [],
+          "tags": [{ "urlName": "python", "name": "Python" }]
+        }
+      },
+      {
+        "hasCodeBlock": true,
+        "isLikedByViewer": false,
+        "isNewArrival": false,
+        "followingLikers": [],
+        "node": {
+          "encryptedId": "c68ny8ncYIpD3RaGq9G5XhtDYdnx8vyGag==--noWr10Xybbs4S/sz--ecFyc6A7bseCVpCSo3dMgg==",
+          "isLikedByViewer": false,
+          "isStockableByViewer": false,
+          "isStockedByViewer": false,
+          "likesCount": 7,
+          "linkUrl": "https://qiita.com/tpyk0021/items/1aefc1728b47ee36d1b6",
+          "publishedAt": "2021-05-05T14:14:00Z",
+          "title": "機械学習の学習完了をslackに通知したい",
+          "uuid": "1aefc1728b47ee36d1b6",
+          "author": {
+            "displayName": "@tpyk0021",
+            "isUser": true,
+            "linkUrl": "https://qiita.com/tpyk0021",
+            "profileImageUrl": "https://pbs.twimg.com/profile_images/1218552656622321666/TRF-0-lY_bigger.jpg",
+            "urlName": "tpyk0021"
+          },
+          "recentlyFollowingLikers": [],
+          "tags": [
+            { "urlName": "python", "name": "Python" },
+            { "urlName": "machinelearning", "name": "MachineLearning" },
+            { "urlName": "deeplearning", "name": "DeepLearning" },
+            { "urlName": "slack", "name": "Slack" },
+            { "urlName": "pytorch", "name": "PyTorch" }
+          ]
+        }
+      },
+      {
+        "hasCodeBlock": false,
+        "isLikedByViewer": false,
+        "isNewArrival": true,
+        "followingLikers": [],
+        "node": {
+          "encryptedId": "3Inac9+ie3fbtrJKV0sZgW+cDgH4/dL/BQ==--nBEYwS58t3AVevqW--kEfv01lcZJbtAYGdaJVHNA==",
+          "isLikedByViewer": false,
+          "isStockableByViewer": false,
+          "isStockedByViewer": false,
+          "likesCount": 6,
+          "linkUrl": "https://qiita.com/e99h2121/items/c6afa788d87dbcb09175",
+          "publishedAt": "2021-05-05T21:16:06Z",
+          "title": "エンジニアは英語をどこまで勉強すればよいのか - 英語に関する2つのご意見",
+          "uuid": "c6afa788d87dbcb09175",
+          "author": {
+            "displayName": "@e99h2121",
+            "isUser": true,
+            "linkUrl": "https://qiita.com/e99h2121",
+            "profileImageUrl": "https://s3-ap-northeast-1.amazonaws.com/qiita-image-store/0/93824/323a3ee1bb6f4a9fc03232a15b3c1203a23c1863/large.png?1612649035",
+            "urlName": "e99h2121"
+          },
+          "recentlyFollowingLikers": [],
+          "tags": [
+            { "urlName": "%e8%8b%b1%e8%aa%9e", "name": "英語" },
+            { "urlName": "%e3%83%9d%e3%82%a8%e3%83%a0", "name": "ポエム" },
+            {
+              "urlName": "%e3%82%a8%e3%83%b3%e3%82%b8%e3%83%8b%e3%82%a2",
+              "name": "エンジニア"
+            },
+            {
+              "urlName": "%e6%96%b0%e4%ba%ba%e3%83%97%e3%83%ad%e3%82%b0%e3%83%a9%e3%83%9e%e5%bf%9c%e6%8f%b4",
+              "name": "新人プログラマ応援"
+            },
+            {
+              "urlName": "%e7%94%9f%e5%ad%98%e6%88%a6%e7%95%a5",
+              "name": "生存戦略"
+            }
+          ]
+        }
+      },
+      {
+        "hasCodeBlock": true,
+        "isLikedByViewer": false,
+        "isNewArrival": true,
+        "followingLikers": [],
+        "node": {
+          "encryptedId": "04SfpTXTNFAhp5KlYMXoGMaUQPgPyxMX+A==--UvYGYN2mOcJo6EZ9--V1TJwdOXEr1KJaFRZuOwDQ==",
+          "isLikedByViewer": false,
+          "isStockableByViewer": false,
+          "isStockedByViewer": false,
+          "likesCount": 8,
+          "linkUrl": "https://qiita.com/RYO_nami/items/1fd75569f7d363b09308",
+          "publishedAt": "2021-05-05T07:35:15Z",
+          "title": "【Lazy Loading】画面表示を速くする簡単な方法",
+          "uuid": "1fd75569f7d363b09308",
+          "author": {
+            "displayName": "@RYO_nami",
+            "isUser": true,
+            "linkUrl": "https://qiita.com/RYO_nami",
+            "profileImageUrl": "https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/122485/profile-images/1613519344",
+            "urlName": "RYO_nami"
+          },
+          "recentlyFollowingLikers": [],
+          "tags": [
+            { "urlName": "html", "name": "HTML" },
+            { "urlName": "javascript", "name": "JavaScript" },
+            {
+              "urlName": "%e3%83%95%e3%83%ad%e3%83%b3%e3%83%88%e3%82%a8%e3%83%b3%e3%83%89",
+              "name": "フロントエンド"
+            },
+            {
+              "urlName": "%e3%83%91%e3%83%95%e3%82%a9%e3%83%bc%e3%83%9e%e3%83%b3%e3%82%b9",
+              "name": "パフォーマンス"
+            }
+          ]
+        }
+      },
+      {
+        "hasCodeBlock": true,
+        "isLikedByViewer": false,
+        "isNewArrival": true,
+        "followingLikers": [],
+        "node": {
+          "encryptedId": "dwfY6ermwC+S98+Ssa7HEkRS+vhV1bSuSQ==--331JuBFnEDdOO+en--1ouBuBDnCIEhp0MmMwa7kA==",
+          "isLikedByViewer": false,
+          "isStockableByViewer": false,
+          "isStockedByViewer": false,
+          "likesCount": 6,
+          "linkUrl": "https://qiita.com/Michinosuke/items/a0a6fdfee6f70f4d524c",
+          "publishedAt": "2021-05-05T23:52:04Z",
+          "title": "任意の色相に対して最低コントラストを満たす色を計算する",
+          "uuid": "a0a6fdfee6f70f4d524c",
+          "author": {
+            "displayName": "@Michinosuke",
+            "isUser": true,
+            "linkUrl": "https://qiita.com/Michinosuke",
+            "profileImageUrl": "https://qiita-image-store.s3.amazonaws.com/0/227791/profile-images/1550453410",
+            "urlName": "Michinosuke"
+          },
+          "recentlyFollowingLikers": [],
+          "tags": [
+            { "urlName": "javascript", "name": "JavaScript" },
+            { "urlName": "ui", "name": "UI" },
+            {
+              "urlName": "%e3%83%87%e3%82%b6%e3%82%a4%e3%83%b3",
+              "name": "デザイン"
+            },
+            { "urlName": "%e8%89%b2", "name": "色" },
+            {
+              "urlName": "%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b7%e3%83%93%e3%83%aa%e3%83%86%e3%82%a3",
+              "name": "アクセシビリティ"
+            }
+          ]
+        }
+      },
+      {
+        "hasCodeBlock": true,
+        "isLikedByViewer": false,
+        "isNewArrival": true,
+        "followingLikers": [],
+        "node": {
+          "encryptedId": "8JTnliqk0QnykdjhLLGPWHHrivq+C9TsYA==--9TpFg9C2BNHSwal6--wA/10XYaRDCXK9b/hPGg4A==",
+          "isLikedByViewer": false,
+          "isStockableByViewer": false,
+          "isStockedByViewer": false,
+          "likesCount": 8,
+          "linkUrl": "https://qiita.com/shundroid/items/d970852456fd88d55f32",
+          "publishedAt": "2021-05-06T06:10:29Z",
+          "title": "TypeScriptで型推論やりすぎな足し算をする関数を作ってみた",
+          "uuid": "d970852456fd88d55f32",
+          "author": {
+            "displayName": "@shundroid",
+            "isUser": true,
+            "linkUrl": "https://qiita.com/shundroid",
+            "profileImageUrl": "https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/97338/profile-images/1580037510",
+            "urlName": "shundroid"
+          },
+          "recentlyFollowingLikers": [],
+          "tags": [
+            { "urlName": "javascript", "name": "JavaScript" },
+            { "urlName": "web", "name": "Web" },
+            { "urlName": "typescript", "name": "TypeScript" }
+          ]
+        }
+      },
+      {
+        "hasCodeBlock": true,
+        "isLikedByViewer": false,
+        "isNewArrival": true,
+        "followingLikers": [],
+        "node": {
+          "encryptedId": "FrmAt7X495GS0aQkIZ8XChFnhoJJGaFDMQ==--sSC9caIqTSAQN54D--edVWWkXb81OlcgNvJF7TtA==",
+          "isLikedByViewer": false,
+          "isStockableByViewer": false,
+          "isStockedByViewer": false,
+          "likesCount": 5,
+          "linkUrl": "https://qiita.com/mi_iroha/items/c2c676184a919490c1ae",
+          "publishedAt": "2021-05-05T15:33:25Z",
+          "title": "【SwiftUI】初めての非同期処理♡",
+          "uuid": "c2c676184a919490c1ae",
+          "author": {
+            "displayName": "@mi_iroha",
+            "isUser": true,
+            "linkUrl": "https://qiita.com/mi_iroha",
+            "profileImageUrl": "https://s3-ap-northeast-1.amazonaws.com/qiita-image-store/0/906559/d9094756c67e6bd1fe8ee251a8a41cd8b2b6ef39/large.png?1606225732",
+            "urlName": "mi_iroha"
+          },
+          "recentlyFollowingLikers": [],
+          "tags": [
+            {
+              "urlName": "%e9%9d%9e%e5%90%8c%e6%9c%9f%e5%87%a6%e7%90%86",
+              "name": "非同期処理"
+            },
+            { "urlName": "swift", "name": "Swift" },
+            {
+              "urlName": "%e3%82%af%e3%83%ad%e3%83%bc%e3%82%b8%e3%83%a3",
+              "name": "クロージャ"
+            },
+            { "urlName": "dispatchqueue", "name": "DispatchQueue" },
+            { "urlName": "swiftui", "name": "SwiftUI" }
+          ]
+        }
+      },
+      {
+        "hasCodeBlock": true,
+        "isLikedByViewer": false,
+        "isNewArrival": true,
+        "followingLikers": [],
+        "node": {
+          "encryptedId": "lGzwjJdgBg8VUkKQaMyoq6hr2Qx4XsjDNQ==--/8RCX9/WN3+FMLt1--Si8mWJQJUaiGLiyE1DFUMg==",
+          "isLikedByViewer": false,
+          "isStockableByViewer": false,
+          "isStockedByViewer": false,
+          "likesCount": 3,
+          "linkUrl": "https://qiita.com/Neitworks/items/625783f46ac34d60b01d",
+          "publishedAt": "2021-05-05T10:16:42Z",
+          "title": "TailwindCSSってナニ？",
+          "uuid": "625783f46ac34d60b01d",
+          "author": {
+            "displayName": "@Neitworks",
+            "isUser": true,
+            "linkUrl": "https://qiita.com/Neitworks",
+            "profileImageUrl": "https://avatars.githubusercontent.com/u/78195755?v=4",
+            "urlName": "Neitworks"
+          },
+          "recentlyFollowingLikers": [],
+          "tags": [
+            { "urlName": "react", "name": "React" },
+            { "urlName": "next.js", "name": "next.js" },
+            { "urlName": "tailwindcss", "name": "tailwindcss" }
+          ]
+        }
+      },
+      {
+        "hasCodeBlock": false,
+        "isLikedByViewer": false,
+        "isNewArrival": true,
+        "followingLikers": [],
+        "node": {
+          "encryptedId": "aEbguimwZcgGENdHSr6w08nrw14jt8snGA==--Ol8WG2MmYenD+Ik7--OqqsSt0ZhGxggmWt1JJTTg==",
+          "isLikedByViewer": false,
+          "isStockableByViewer": false,
+          "isStockedByViewer": false,
+          "likesCount": 4,
+          "linkUrl": "https://qiita.com/DeepTama/items/20b93ff8b8547428f662",
+          "publishedAt": "2021-05-04T13:49:14Z",
+          "title": "自然言語処理　Seq2Seq＆TransFormer（Sequence to Sequence \u0026 TransFormer）",
+          "uuid": "20b93ff8b8547428f662",
+          "author": {
+            "displayName": "@DeepTama",
+            "isUser": true,
+            "linkUrl": "https://qiita.com/DeepTama",
+            "profileImageUrl": "https://s3-ap-northeast-1.amazonaws.com/qiita-image-store/0/1413278/5117de30a194429b3f91c65a4052b0a61cb80aa3/x_large.png?1619693411",
+            "urlName": "DeepTama"
+          },
+          "recentlyFollowingLikers": [],
+          "tags": [{ "urlName": "python", "name": "Python" }]
+        }
+      },
+      {
+        "hasCodeBlock": true,
+        "isLikedByViewer": false,
+        "isNewArrival": true,
+        "followingLikers": [],
+        "node": {
+          "encryptedId": "feT38xaLZLMfafTIYsP88w1+D4DCKJuHoA==--w963i8eideQOrQKz--N7FlVaCbq5qhmaG05rq8YA==",
+          "isLikedByViewer": false,
+          "isStockableByViewer": false,
+          "isStockedByViewer": false,
+          "likesCount": 4,
+          "linkUrl": "https://qiita.com/Adacchi3/items/e6d14dda4084f6a88812",
+          "publishedAt": "2021-05-05T11:14:50Z",
+          "title": "Contentful, Next.js, Apolloで作成したポートフォリオをGithub Pagesに公開したときの備忘録",
+          "uuid": "e6d14dda4084f6a88812",
+          "author": {
+            "displayName": "@Adacchi3",
+            "isUser": true,
+            "linkUrl": "https://qiita.com/Adacchi3",
+            "profileImageUrl": "https://avatars3.githubusercontent.com/u/23295874?v=4",
+            "urlName": "Adacchi3"
+          },
+          "recentlyFollowingLikers": [],
+          "tags": [
+            { "urlName": "graphql", "name": "GraphQL" },
+            { "urlName": "apollo", "name": "apollo" },
+            { "urlName": "next.js", "name": "next.js" },
+            { "urlName": "contentful", "name": "contentful" },
+            { "urlName": "githubactions", "name": "GitHubActions" }
+          ]
+        }
+      },
+      {
+        "hasCodeBlock": true,
+        "isLikedByViewer": false,
+        "isNewArrival": true,
+        "followingLikers": [],
+        "node": {
+          "encryptedId": "VbZvbhXU9vQijV0hsQVzLUqWiFvzkxTcgQ==--52FIOhH6uyvclAFb--Jl/3tyZnYLYhi7ENUvxbfw==",
+          "isLikedByViewer": false,
+          "isStockableByViewer": false,
+          "isStockedByViewer": false,
+          "likesCount": 3,
+          "linkUrl": "https://qiita.com/vit_udon_husqy/items/20aa339127f228f25794",
+          "publishedAt": "2021-05-05T14:17:28Z",
+          "title": "Rails6でStripe Checkoutを実装　（開発環境/TESTモード）",
+          "uuid": "20aa339127f228f25794",
+          "author": {
+            "displayName": "@vit_udon_husqy",
+            "isUser": true,
+            "linkUrl": "https://qiita.com/vit_udon_husqy",
+            "profileImageUrl": "https://s3-ap-northeast-1.amazonaws.com/qiita-image-store/0/1161057/c1131eb782dc3b48c8324c669db9d02c32f8564b/x_large.png?1618578631",
+            "urlName": "vit_udon_husqy"
+          },
+          "recentlyFollowingLikers": [],
+          "tags": [
+            { "urlName": "ruby", "name": "Ruby" },
+            { "urlName": "javascript", "name": "JavaScript" },
+            { "urlName": "rails", "name": "Rails" },
+            { "urlName": "stripe", "name": "stripe" }
+          ]
+        }
+      },
+      {
+        "hasCodeBlock": false,
+        "isLikedByViewer": false,
+        "isNewArrival": true,
+        "followingLikers": [],
+        "node": {
+          "encryptedId": "IZhn4oluB2qTC4uHE5nDnJE4p1qCMjNLwA==--iIlzLV0S4mRua6ZV--epz2rLe6yflqhPw4+53F6g==",
+          "isLikedByViewer": false,
+          "isStockableByViewer": false,
+          "isStockedByViewer": false,
+          "likesCount": 4,
+          "linkUrl": "https://qiita.com/everpeace/items/084da032a83c81bb887a",
+          "publishedAt": "2021-05-04T07:17:15Z",
+          "title": "Kubernetes 1.21: SIG Scheduling の変更内容",
+          "uuid": "084da032a83c81bb887a",
+          "author": {
+            "displayName": "@everpeace",
+            "isUser": true,
+            "linkUrl": "https://qiita.com/everpeace",
+            "profileImageUrl": "https://qiita-image-store.s3.amazonaws.com/0/8678/profile-images/1473681113",
+            "urlName": "everpeace"
+          },
+          "recentlyFollowingLikers": [],
+          "tags": [
+            { "urlName": "kubernetes", "name": "kubernetes" },
+            { "urlName": "scheduling", "name": "Scheduling" }
+          ]
+        }
+      },
+      {
+        "hasCodeBlock": true,
+        "isLikedByViewer": false,
+        "isNewArrival": true,
+        "followingLikers": [],
+        "node": {
+          "encryptedId": "lKx4TqjP0lo8iv2in4Hy2IRh9lMYTBTe+w==--p5HbAdpBXckv0uxi--uYQXyuRkMSc0Nfr96dyH6w==",
+          "isLikedByViewer": false,
+          "isStockableByViewer": false,
+          "isStockedByViewer": false,
+          "likesCount": 5,
+          "linkUrl": "https://qiita.com/mega_yadoran/items/c5dc0204034d259c7d53",
+          "publishedAt": "2021-05-05T16:17:25Z",
+          "title": "出かけるときに雨が降っていたらAlexaが教えてくれるシステム【TWELITE PAL】",
+          "uuid": "c5dc0204034d259c7d53",
+          "author": {
+            "displayName": "@mega_yadoran",
+            "isUser": true,
+            "linkUrl": "https://qiita.com/mega_yadoran",
+            "profileImageUrl": "https://lh4.googleusercontent.com/-KhzmMNFOkwk/AAAAAAAAAAI/AAAAAAAAAB0/cH9tTuZXWjg/photo.jpg?sz=50",
+            "urlName": "mega_yadoran"
+          },
+          "recentlyFollowingLikers": [],
+          "tags": [
+            { "urlName": "python", "name": "Python" },
+            { "urlName": "iot", "name": "IoT" },
+            { "urlName": "alexa", "name": "Alexa" },
+            { "urlName": "twelitepal", "name": "TWELITEPAL" }
+          ]
+        }
+      },
+      {
+        "hasCodeBlock": true,
+        "isLikedByViewer": false,
+        "isNewArrival": false,
+        "followingLikers": [],
+        "node": {
+          "encryptedId": "LBbjbPb3/yZXrGOJ8H8sZ885FN9l+f6IGw==--jewpwilneOpzT/ya--lLG8FhTFo/QArRQTsrRrKw==",
+          "isLikedByViewer": false,
+          "isStockableByViewer": false,
+          "isStockedByViewer": false,
+          "likesCount": 7,
+          "linkUrl": "https://qiita.com/Yuqi-1561/items/b0f41a5b4672aa399e83",
+          "publishedAt": "2021-05-04T07:54:55Z",
+          "title": "Laravel + React(TypeScript)の開発環境を構築する方法 ～DB接続まで～",
+          "uuid": "b0f41a5b4672aa399e83",
+          "author": {
+            "displayName": "@Yuqi-1561",
+            "isUser": true,
+            "linkUrl": "https://qiita.com/Yuqi-1561",
+            "profileImageUrl": "https://lh3.googleusercontent.com/a-/AOh14GgcPAUhheG3F0zvFe5F8NNLhdA-b5if3JeHgjjenw=s50",
+            "urlName": "Yuqi-1561"
+          },
+          "recentlyFollowingLikers": [],
+          "tags": [
+            { "urlName": "typescript", "name": "TypeScript" },
+            { "urlName": "laravel", "name": "Laravel" },
+            { "urlName": "react", "name": "React" }
+          ]
+        }
+      }
+    ]
+  },
+  "scope": "daily",
+  "type": "all"
+}
