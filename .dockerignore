@@ -1,2 +1,9 @@
 db
 docker-compose.yml
+docker-compose.example.yml
+Dockerfile
+.dockerignore
+test
+.github
+.vscode
+.gitignore
