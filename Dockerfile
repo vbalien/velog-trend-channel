@@ -18,6 +18,6 @@ RUN deno cache src/deps.ts
 # These steps will be re-run upon each file change in your working directory:
 ADD . .
 # Compile the main app so that it doesn't need to be compiled each startup/entry.
-RUN deno cache src/main.ts
+RUN vr build
 
 CMD crond -b -L /var/log/cron.log && tail -f /var/log/cron.log
