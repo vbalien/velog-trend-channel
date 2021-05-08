@@ -3,9 +3,6 @@ LABEL maintainer="Jisu Kim <webmaster@alien.moe>"
 
 WORKDIR /app
 
-# Prefer not to run as root.
-# USER deno
-
 RUN set -x \
   && apk add --no-cache \
   dcron \
@@ -19,7 +16,7 @@ COPY src/deps.ts /app/src/
 RUN deno cache src/deps.ts
 
 # These steps will be re-run upon each file change in your working directory:
-ADD ./src /app/src
+ADD . .
 # Compile the main app so that it doesn't need to be compiled each startup/entry.
 RUN deno cache src/main.ts
 
