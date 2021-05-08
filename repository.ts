@@ -1,4 +1,4 @@
-import { Bson, MongoClient } from "https://deno.land/x/mongo@v0.22.0/mod.ts";
+import { MongoClient } from "https://deno.land/x/mongo@v0.22.0/mod.ts";
 import { Collection } from "https://deno.land/x/mongo@v0.22.0/src/collection/mod.ts";
 import { Inject, Service } from "https://x.nest.land/di@0.1.1/mod.ts";
 
@@ -6,7 +6,7 @@ import { types } from "./constants.ts";
 import { Article } from "./app.ts";
 
 interface ArticleSchema extends Article {
-  _id: { $oid: string };
+  _id: string;
 }
 export interface IRepository {
   addArticle(article: Article): Promise<void>;
@@ -25,16 +25,13 @@ export class Repository implements IRepository {
   }
 
   async hasArticle(id: string) {
-    return (
-      (await this.#articles.findOne({ _id: new Bson.ObjectId(id) })) !==
-      undefined
-    );
+    return (await this.#articles.findOne({ _id: id })) !== undefined;
   }
 
   async addArticle(article: Article) {
     await this.#articles.insertOne({
       ...article,
-      _id: new Bson.ObjectId(article.uuid),
+      _id: article.uuid,
     });
   }
 }

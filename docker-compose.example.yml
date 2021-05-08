@@ -1,0 +1,18 @@
+version: "3"
+
+services:
+  bot:
+    build: .
+    restart: always
+    depends_on:
+      - mongo
+    environment:
+      MONGO_HOST: mongo
+      BOT_TOKEN: YOUR_BOT_TOKEN
+      CHANNEL: YOUR_CHANNEL_NAME
+
+  mongo:
+    image: mongo
+    restart: always
+    volumes:
+      - ./db:/data/db

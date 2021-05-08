@@ -1,9 +1,6 @@
-import { Service, Inject } from "https://x.nest.land/di@0.1.1/mod.ts";
-import { Telegram } from "https://deno.land/x/telegram@v0.1.1/mod.ts";
-import { SendMessageParameters } from "https://deno.land/x/telegram@v0.1.1/types.ts";
-
 import { IRepository } from "./repository.ts";
 import { types } from "./constants.ts";
+import { Inject, SendMessageParameters, Service, Telegram } from "./deps.ts";
 
 export interface TrendFeed {
   trend: { edges: Edge[] };
@@ -71,32 +68,34 @@ export class App implements IApp {
 
   private makeMessage(article: Article) {
     const tags = article.tags.map((t) => `#${t.name}`).join(" ");
-    return `*${article.title.replaceAll("*", "\\*")}*\n\n${tags}\n\nLGTM: ${
-      article.likesCount
-    }`;
+    return `<b>${article.title}</b>\nLGTM: ${article.likesCount}\n${tags}\n\nLink: ${article.linkUrl}`;
   }
 
-  private sendMessage(article: Article) {
+  private async sendMessage(article: Article) {
     const requestData: SendMessageParameters = {
       // deno-lint-ignore camelcase
-      chat_id: this.channel,
+      chat_id: `@${this.channel}`,
       text: this.makeMessage(article),
       // deno-lint-ignore camelcase
-      parse_mode: "MarkdownV2",
+      parse_mode: "HTML",
       // deno-lint-ignore camelcase
       reply_markup: {
         inline_keyboard: [[{ text: "投稿を読む", url: article.linkUrl }]],
       },
     };
-    this.telegram.sendMessage(requestData);
+    await this.telegram.sendMessage(requestData);
   }
 
   async doCrawl() {
     const feed = await this.getFeed();
     for (const { node: article } of feed.trend.edges) {
-      if (!this.repo.hasArticle(article.uuid)) {
-        await this.repo.addArticle(article);
-        this.sendMessage(article);
+      try {
+        if (!(await this.repo.hasArticle(article.uuid))) {
+          await this.sendMessage(article);
+          await this.repo.addArticle(article);
+        }
+      } catch (err) {
+        console.error(err);
       }
     }
   }

@@ -58,6 +58,11 @@ Deno.test("make message", async () => {
   assertStringIncludes(msg, firstNode.title, "Expected has title in message");
   assertStringIncludes(
     msg,
+    firstNode.linkUrl,
+    "Expected has linkUrl in message"
+  );
+  assertStringIncludes(
+    msg,
     `LGTM: ${firstNode.likesCount}`,
     "Expected has likesCount in message"
   );

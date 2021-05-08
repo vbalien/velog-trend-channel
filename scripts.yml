@@ -1,6 +1,6 @@
 scripts:
   start:
-    cmd: deno run index.ts
+    cmd: deno run main.ts
     tsconfig: tsconfig.json
     allow:
       - env
