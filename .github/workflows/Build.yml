@@ -13,7 +13,7 @@ jobs:
           deno-version: 1.9.2
       - name: Install Velociraptor
         run: |
-          deno install -qA -n vr https://deno.land/x/velociraptor@v1.0.0-beta.18/cli.ts
+          deno install -qA -n vr https://deno.land/x/velociraptor@1.0.0-beta.18/cli.ts
           echo "::add-path::$HOME/.deno/bin"
       - name: Build
         run: vr build
