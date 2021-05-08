@@ -1,13 +1,13 @@
 scripts:
   start:
-    cmd: deno run main.ts
+    cmd: deno run ./src/main.ts
     tsconfig: tsconfig.json
     allow:
       - env
       - net
 
   build:
-    cmd: deno cache ./main.ts
+    cmd: deno cache ./src/main.ts
     reload: true
     tsconfig: ./tsconfig.json
 
