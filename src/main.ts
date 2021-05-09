@@ -1,7 +1,7 @@
 import { Repository, IRepository } from "./repository.ts";
 import { App, IApp } from "./app.ts";
 import { types } from "./constants.ts";
-import { MongoClient, ServiceCollection, Telegram } from "./deps.ts";
+import { MongoClient, ServiceCollection, TelegramBot } from "./deps.ts";
 
 const BOT_TOKEN = Deno.env.get("BOT_TOKEN");
 if (BOT_TOKEN === undefined) throw new Error("BOT_TOKEN must be provided!");
@@ -17,7 +17,7 @@ const serviceCollection = new ServiceCollection();
 serviceCollection.addStatic(types.mongo, mongo);
 serviceCollection.addTransientDynamic(
   types.telegram,
-  () => new Telegram(BOT_TOKEN)
+  () => new TelegramBot(BOT_TOKEN)
 );
 serviceCollection.addStatic(types.channel, CHANNEL);
 serviceCollection.addTransient<IRepository>(types.IRepository, Repository);

@@ -5,12 +5,13 @@ import { Inject, Service } from "https://x.nest.land/di@0.1.1/mod.ts";
 import { types } from "./constants.ts";
 import { Article } from "./app.ts";
 
-interface ArticleSchema extends Article {
+export interface ArticleSchema extends Article {
   _id: string;
+  messageId: number;
 }
 export interface IRepository {
-  addArticle(article: Article): Promise<void>;
-  hasArticle(id: string): Promise<boolean>;
+  addArticle(messageId: number, article: Article): Promise<void>;
+  findArticle(id: string): Promise<ArticleSchema | undefined>;
 }
 
 @Service()
@@ -24,14 +25,15 @@ export class Repository implements IRepository {
     this.#articles = mongo.database("qiita_trend").collection("articles");
   }
 
-  async hasArticle(id: string) {
-    return (await this.#articles.findOne({ _id: id })) !== undefined;
+  async findArticle(id: string) {
+    return await this.#articles.findOne({ _id: id });
   }
 
-  async addArticle(article: Article) {
+  async addArticle(messageId: number, article: Article) {
     await this.#articles.insertOne({
       ...article,
       _id: article.uuid,
+      messageId,
     });
   }
 }

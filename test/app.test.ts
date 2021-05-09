@@ -6,8 +6,8 @@ import {
 import { stub } from "https://deno.land/x/mock@v0.9.5/stub.ts";
 
 import { App, Edge, TrendFeed } from "../src/app.ts";
-import { Telegram } from "../src/deps.ts";
-import { IRepository } from "../src/repository.ts";
+import { TelegramBot } from "../src/deps.ts";
+import { ArticleSchema, IRepository } from "../src/repository.ts";
 
 async function loadFixture(name: string): Promise<string> {
   return await Deno.readTextFile(`./test/fixture/${name}`);
@@ -20,9 +20,9 @@ class FakeRepository implements IRepository {
     });
   }
 
-  hasArticle() {
-    return new Promise<boolean>((resolve) => {
-      resolve(false);
+  findArticle() {
+    return new Promise<ArticleSchema | undefined>((resolve) => {
+      resolve(undefined);
     });
   }
 }
@@ -31,7 +31,7 @@ async function makeApp(repo?: IRepository): Promise<App> {
   const app = new App(
     repo ?? new FakeRepository(),
     "testChannel",
-    new Telegram("token")
+    new TelegramBot("token")
   );
   stub(app, "fetchData", [await loadFixture("Qiita.html")]);
   return app;
@@ -72,10 +72,11 @@ Deno.test("make message", async () => {
   );
 });
 
-Deno.test("send messages", async () => {
+Deno.test("send/edit messages", async () => {
   const db = new FakeRepository();
   const app = await makeApp(db);
-  const sendMessage = stub(app, "sendMessage");
+  const sendMessage = stub(app, "sendMessage", () => ({ message_id: 0 }));
+  const editMessage = stub(app, "editMessage");
   const edges: Edge[] = JSON.parse(
     await loadFixture("HomeArticleTrendFeed.json")
   ).trend.edges;
@@ -84,10 +85,15 @@ Deno.test("send messages", async () => {
     edges[10].node.uuid,
     edges[edges.length - 1].node.uuid,
   ];
-  stub(db, "hasArticle", (id: string) => storedArticles.includes(id));
+  stub(db, "findArticle", (id: string) =>
+    storedArticles.includes(id) ? { messageId: 0 } : undefined
+  );
   await app.doCrawl();
-  const calledArticleIds = sendMessage.calls.map((call) => call.args[0].uuid);
+  const sendArticleIds = sendMessage.calls.map((call) => call.args[0].uuid);
+  const editArticleIds = editMessage.calls.map((call) => call.args[1].uuid);
 
-  assertEquals(edges.length - storedArticles.length, calledArticleIds.length);
-  assert(!calledArticleIds.includes(storedArticles));
+  assertEquals(edges.length - storedArticles.length, sendArticleIds.length);
+  assertEquals(storedArticles.length, editArticleIds.length);
+  assert(!sendArticleIds.includes(storedArticles));
+  assertEquals(storedArticles, editArticleIds);
 });

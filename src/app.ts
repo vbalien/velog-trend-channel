@@ -1,6 +1,6 @@
 import { IRepository } from "./repository.ts";
 import { types } from "./constants.ts";
-import { Inject, SendMessageParameters, Service, Telegram } from "./deps.ts";
+import { Inject, Service, TelegramBot } from "./deps.ts";
 
 export interface TrendFeed {
   trend: { edges: Edge[] };
@@ -48,7 +48,7 @@ export class App implements IApp {
     private channel: string,
 
     @Inject(types.telegram)
-    private telegram: Telegram
+    private telegram: TelegramBot
   ) {}
 
   private async fetchData() {
@@ -72,7 +72,7 @@ export class App implements IApp {
   }
 
   private async sendMessage(article: Article) {
-    const requestData: SendMessageParameters = {
+    const requestData = {
       // deno-lint-ignore camelcase
       chat_id: `@${this.channel}`,
       text: this.makeMessage(article),
@@ -83,16 +83,37 @@ export class App implements IApp {
         inline_keyboard: [[{ text: "投稿を読む", url: article.linkUrl }]],
       },
     };
-    await this.telegram.sendMessage(requestData);
+    return await this.telegram.sendMessage(requestData);
+  }
+
+  private async editMessage(messageId: number, article: Article) {
+    const requestData = {
+      // deno-lint-ignore camelcase
+      message_id: messageId,
+      // deno-lint-ignore camelcase
+      chat_id: `@${this.channel}`,
+      text: this.makeMessage(article),
+      // deno-lint-ignore camelcase
+      parse_mode: "HTML",
+      // deno-lint-ignore camelcase
+      reply_markup: {
+        inline_keyboard: [[{ text: "投稿を読む", url: article.linkUrl }]],
+      },
+    };
+    await this.telegram.editMessageText(requestData);
   }
 
   async doCrawl() {
     const feed = await this.getFeed();
     for (const { node: article } of feed.trend.edges) {
       try {
-        if (!(await this.repo.hasArticle(article.uuid))) {
-          await this.sendMessage(article);
-          await this.repo.addArticle(article);
+        const found = await this.repo.findArticle(article.uuid);
+        if (found === undefined) {
+          const { message_id: messageId } = await this.sendMessage(article);
+          await this.repo.addArticle(messageId, article);
+        } else {
+          if (found.messageId !== undefined)
+            await this.editMessage(found.messageId, article);
         }
       } catch (err) {
         console.error(err);
