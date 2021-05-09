@@ -1,9 +1,6 @@
-import { MongoClient } from "https://deno.land/x/mongo@v0.22.0/mod.ts";
-import { Collection } from "https://deno.land/x/mongo@v0.22.0/src/collection/mod.ts";
-import { Inject, Service } from "https://x.nest.land/di@0.1.1/mod.ts";
-
 import { types } from "./constants.ts";
 import { Article } from "./app.ts";
+import { Collection, Inject, MongoClient, Service } from "./deps.ts";
 
 export interface ArticleSchema extends Article {
   _id: string;
