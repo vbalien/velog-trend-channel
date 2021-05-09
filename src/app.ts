@@ -80,7 +80,7 @@ export class App implements IApp {
       parse_mode: "HTML",
       // deno-lint-ignore camelcase
       reply_markup: {
-        inline_keyboard: [[{ text: "投稿を読む", url: article.linkUrl }]],
+        inline_keyboard: [[{ text: "この記事を読む", url: article.linkUrl }]],
       },
     };
     return await this.telegram.sendMessage(requestData);
@@ -97,7 +97,7 @@ export class App implements IApp {
       parse_mode: "HTML",
       // deno-lint-ignore camelcase
       reply_markup: {
-        inline_keyboard: [[{ text: "投稿を読む", url: article.linkUrl }]],
+        inline_keyboard: [[{ text: "この記事を読む", url: article.linkUrl }]],
       },
     };
     await this.telegram.editMessageText(requestData);
