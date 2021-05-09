@@ -1,4 +1,4 @@
-import { IRepository } from "./repository.ts";
+import { ArticleSchema, IRepository } from "./repository.ts";
 import { types } from "./constants.ts";
 import { sleep } from "./utils.ts";
 import { equal, Inject, Service, TelegramBot } from "./deps.ts";
@@ -88,12 +88,13 @@ export class App implements IApp {
     return await this.telegram.sendMessage(requestData);
   }
 
-  private async editMessage(messageId: number, article: Article) {
-    const requestData = this.makeMessageRequest(article);
-    await this.telegram.editMessageText({
-      ...requestData,
-      message_id: messageId,
-    });
+  private async editMessage(oldArticle: ArticleSchema, newArticle: Article) {
+    const requestData = this.makeMessageRequest(newArticle);
+    if (!equal(this.makeMessageRequest(oldArticle), requestData))
+      await this.telegram.editMessageText({
+        ...requestData,
+        message_id: oldArticle.messageId,
+      });
   }
 
   async doCrawl() {
@@ -105,14 +106,8 @@ export class App implements IApp {
           const { message_id: messageId } = await this.sendMessage(article);
           await this.repo.addArticle(messageId, article);
         } else {
-          if (
-            found.messageId !== undefined &&
-            !equal(
-              this.makeMessageRequest(found),
-              this.makeMessageRequest(article)
-            )
-          )
-            await this.editMessage(found.messageId, article);
+          if (found.messageId !== undefined)
+            await this.editMessage(found, article);
         }
         await sleep(1000);
       } catch (err) {
