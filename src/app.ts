@@ -74,12 +74,9 @@ export class App implements IApp {
 
   private makeMessageRequest(article: Article) {
     return {
-      // deno-lint-ignore camelcase
       chat_id: `@${this.channel}`,
       text: this.makeMessage(article),
-      // deno-lint-ignore camelcase
       parse_mode: "HTML",
-      // deno-lint-ignore camelcase
       reply_markup: {
         inline_keyboard: [[{ text: "この記事を読む", url: article.linkUrl }]],
       },
@@ -95,7 +92,6 @@ export class App implements IApp {
     const requestData = this.makeMessageRequest(article);
     await this.telegram.editMessageText({
       ...requestData,
-      // deno-lint-ignore camelcase
       message_id: messageId,
     });
   }
@@ -111,7 +107,7 @@ export class App implements IApp {
         } else {
           if (
             found.messageId !== undefined &&
-            equal(
+            !equal(
               this.makeMessageRequest(found),
               this.makeMessageRequest(article)
             )
