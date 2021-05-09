@@ -1,6 +1,7 @@
 import { IRepository } from "./repository.ts";
 import { types } from "./constants.ts";
-import { Inject, Service, TelegramBot } from "./deps.ts";
+import { sleep } from "./utils.ts";
+import { equal, Inject, Service, TelegramBot } from "./deps.ts";
 
 export interface TrendFeed {
   trend: { edges: Edge[] };
@@ -71,8 +72,8 @@ export class App implements IApp {
     return `<b>${article.title}</b>\nLGTM: ${article.likesCount}\n${tags}\n\nLink: ${article.linkUrl}`;
   }
 
-  private async sendMessage(article: Article) {
-    const requestData = {
+  private makeMessageRequest(article: Article) {
+    return {
       // deno-lint-ignore camelcase
       chat_id: `@${this.channel}`,
       text: this.makeMessage(article),
@@ -83,24 +84,20 @@ export class App implements IApp {
         inline_keyboard: [[{ text: "この記事を読む", url: article.linkUrl }]],
       },
     };
+  }
+
+  private async sendMessage(article: Article) {
+    const requestData = this.makeMessageRequest(article);
     return await this.telegram.sendMessage(requestData);
   }
 
   private async editMessage(messageId: number, article: Article) {
-    const requestData = {
+    const requestData = this.makeMessageRequest(article);
+    await this.telegram.editMessageText({
+      ...requestData,
       // deno-lint-ignore camelcase
       message_id: messageId,
-      // deno-lint-ignore camelcase
-      chat_id: `@${this.channel}`,
-      text: this.makeMessage(article),
-      // deno-lint-ignore camelcase
-      parse_mode: "HTML",
-      // deno-lint-ignore camelcase
-      reply_markup: {
-        inline_keyboard: [[{ text: "この記事を読む", url: article.linkUrl }]],
-      },
-    };
-    await this.telegram.editMessageText(requestData);
+    });
   }
 
   async doCrawl() {
@@ -112,9 +109,16 @@ export class App implements IApp {
           const { message_id: messageId } = await this.sendMessage(article);
           await this.repo.addArticle(messageId, article);
         } else {
-          if (found.messageId !== undefined)
+          if (
+            found.messageId !== undefined &&
+            equal(
+              this.makeMessageRequest(found),
+              this.makeMessageRequest(article)
+            )
+          )
             await this.editMessage(found.messageId, article);
         }
+        await sleep(1000);
       } catch (err) {
         console.error(err);
       }

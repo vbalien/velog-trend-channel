@@ -85,9 +85,13 @@ Deno.test("send/edit messages", async () => {
     edges[10].node.uuid,
     edges[edges.length - 1].node.uuid,
   ];
-  stub(db, "findArticle", (id: string) =>
-    storedArticles.includes(id) ? { messageId: 0 } : undefined
-  );
+  stub(db, "findArticle", (id: string) => {
+    if (storedArticles.includes(id)) {
+      const found = edges.find((e) => e.node.uuid === id);
+      if (found) return { ...found.node, messageId: 0 };
+      else return undefined;
+    } else return undefined;
+  });
   await app.doCrawl();
   const sendArticleIds = sendMessage.calls.map((call) => call.args[0].uuid);
   const editArticleIds = editMessage.calls.map((call) => call.args[1].uuid);
