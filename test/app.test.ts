@@ -25,6 +25,12 @@ class FakeRepository implements IRepository {
       resolve(undefined);
     });
   }
+
+  updateArticle() {
+    return new Promise<void>((resolve) => {
+      resolve();
+    });
+  }
 }
 
 async function makeApp(repo?: IRepository): Promise<App> {
@@ -88,7 +94,7 @@ Deno.test("send/edit messages", async () => {
   stub(db, "findArticle", (id: string) => {
     if (storedArticles.includes(id)) {
       const found = edges.find((e) => e.node.uuid === id);
-      if (found) return { ...found.node, messageId: 0 };
+      if (found) return { article: found.node, messageId: 0 };
       else return undefined;
     } else return undefined;
   });

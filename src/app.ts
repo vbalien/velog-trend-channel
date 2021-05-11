@@ -1,6 +1,5 @@
-import { ArticleSchema, IRepository } from "./repository.ts";
+import { IRepository } from "./repository.ts";
 import { types } from "./constants.ts";
-import { sleep } from "./utils.ts";
 import { equal, Inject, Service, TelegramBot } from "./deps.ts";
 
 export interface TrendFeed {
@@ -39,7 +38,8 @@ export interface IApp {
 }
 @Service()
 export class App implements IApp {
-  #re = /<script .* data-component-name="HomeArticleTrendFeed".*?>(.*)<\/script>/g;
+  #re =
+    /<script .* data-component-name="HomeArticleTrendFeed".*?>(.*)<\/script>/g;
 
   constructor(
     @Inject(types.IRepository)
@@ -88,12 +88,16 @@ export class App implements IApp {
     return await this.telegram.sendMessage(requestData);
   }
 
-  private async editMessage(oldArticle: ArticleSchema, newArticle: Article) {
+  private async editMessage(
+    messageId: number,
+    oldArticle: Article,
+    newArticle: Article
+  ) {
     const requestData = this.makeMessageRequest(newArticle);
     if (!equal(this.makeMessageRequest(oldArticle), requestData))
       await this.telegram.editMessageText({
         ...requestData,
-        message_id: oldArticle.messageId,
+        message_id: messageId,
       });
   }
 
@@ -106,10 +110,11 @@ export class App implements IApp {
           const { message_id: messageId } = await this.sendMessage(article);
           await this.repo.addArticle(messageId, article);
         } else {
-          if (found.messageId !== undefined)
-            await this.editMessage(found, article);
+          if (found.messageId !== undefined && found.article !== undefined) {
+            await this.editMessage(found.messageId, found.article, article);
+            await this.repo.updateArticle(article);
+          }
         }
-        await sleep(1000);
       } catch (err) {
         console.error(err);
       }
