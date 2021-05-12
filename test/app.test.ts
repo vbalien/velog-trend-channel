@@ -8,26 +8,26 @@ import { stub } from "https://deno.land/x/mock@v0.9.5/stub.ts";
 import { App } from "../src/app.ts";
 import { TelegramBot } from "../src/deps.ts";
 import { IRepository } from "../src/repository.ts";
-import { ArticleSchema, Edge, TrendFeed } from "../src/types.ts";
+import { PostSchema, Post, TrendFeed } from "../src/types.ts";
 
 async function loadFixture(name: string): Promise<string> {
   return await Deno.readTextFile(`./test/fixture/${name}`);
 }
 
 class FakeRepository implements IRepository {
-  addArticle() {
+  addPost() {
     return new Promise<void>((resolve) => {
       resolve();
     });
   }
 
-  findArticle() {
-    return new Promise<ArticleSchema | undefined>((resolve) => {
+  findPost() {
+    return new Promise<PostSchema | undefined>((resolve) => {
       resolve(undefined);
     });
   }
 
-  updateArticle() {
+  updatePost() {
     return new Promise<void>((resolve) => {
       resolve();
     });
@@ -40,41 +40,26 @@ async function makeApp(repo?: IRepository): Promise<App> {
     "testChannel",
     new TelegramBot("token")
   );
-  stub(app, "fetchData", [await loadFixture("Qiita.html")]);
+  stub(app, "fetchData", [JSON.parse(await loadFixture("data.json"))]);
   return app;
 }
 
-Deno.test("parse JSON data from qiita page", async () => {
-  const app = await makeApp();
-  const expectData: TrendFeed = JSON.parse(
-    await loadFixture("HomeArticleTrendFeed.json")
-  );
-  const returned: TrendFeed = await app["getFeed"]();
-  assertEquals(returned, expectData);
-});
-
 Deno.test("make message", async () => {
   const app = await makeApp();
-  const trendFeed: TrendFeed = JSON.parse(
-    await loadFixture("HomeArticleTrendFeed.json")
-  );
-  const firstNode = trendFeed.trend.edges[0].node;
+  const trendFeed: TrendFeed = JSON.parse(await loadFixture("data.json")).data;
+  const firstNode = trendFeed.trendingPosts[0];
   const msg = app["makeMessage"](firstNode);
 
   assertStringIncludes(msg, firstNode.title, "Expected has title in message");
+  assertStringIncludes(msg, firstNode.url_slug, "Expected has url in message");
   assertStringIncludes(
     msg,
-    firstNode.linkUrl,
-    "Expected has linkUrl in message"
+    `❤️ ${firstNode.likes}`,
+    "Expected has likes in message"
   );
   assertStringIncludes(
     msg,
-    `LGTM: ${firstNode.likesCount}`,
-    "Expected has likesCount in message"
-  );
-  assertStringIncludes(
-    msg,
-    firstNode.tags.map((t) => `#${t.name}`).join(" "),
+    firstNode.tags.map((t) => `#${t}`).join(" "),
     "Expected has tags in message"
   );
 });
@@ -84,27 +69,26 @@ Deno.test("send/edit messages", async () => {
   const app = await makeApp(db);
   const sendMessage = stub(app, "sendMessage", () => ({ message_id: 0 }));
   const editMessage = stub(app, "editMessage");
-  const edges: Edge[] = JSON.parse(
-    await loadFixture("HomeArticleTrendFeed.json")
-  ).trend.edges;
-  const storedArticles: string[] = [
-    edges[0].node.uuid,
-    edges[10].node.uuid,
-    edges[edges.length - 1].node.uuid,
+  const posts: Post[] = JSON.parse(await loadFixture("data.json")).data
+    .trendingPosts;
+  const storedPostIds: string[] = [
+    posts[0].id,
+    posts[10].id,
+    posts[posts.length - 1].id,
   ];
-  stub(db, "findArticle", (id: string) => {
-    if (storedArticles.includes(id)) {
-      const found = edges.find((e) => e.node.uuid === id);
-      if (found) return { article: found.node, messageId: 0 };
+  stub(db, "findPost", (id: string) => {
+    if (storedPostIds.includes(id)) {
+      const found = posts.find((e) => e.id === id);
+      if (found) return { post: found, messageId: 0 };
       else return undefined;
     } else return undefined;
   });
   await app.doCrawl();
-  const sendArticleIds = sendMessage.calls.map((call) => call.args[0].uuid);
-  const editArticleIds = editMessage.calls.map((call) => call.args[1].uuid);
+  const sendPostIds = sendMessage.calls.map((call) => call.args[0].id);
+  const editPostIds = editMessage.calls.map((call) => call.args[1].id);
 
-  assertEquals(edges.length - storedArticles.length, sendArticleIds.length);
-  assertEquals(storedArticles.length, editArticleIds.length);
-  assert(!sendArticleIds.includes(storedArticles));
-  assertEquals(storedArticles, editArticleIds);
+  assertEquals(posts.length - storedPostIds.length, sendPostIds.length);
+  assertEquals(storedPostIds.length, editPostIds.length);
+  assert(!sendPostIds.includes(storedPostIds));
+  assertEquals(storedPostIds, editPostIds);
 });

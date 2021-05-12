@@ -1,41 +1,42 @@
 import { types } from "./constants.ts";
 import { Collection, Inject, MongoClient, Service } from "./deps.ts";
-import { Article, ArticleSchema } from "./types.ts";
+import { Post, PostSchema } from "./types.ts";
 
 export interface IRepository {
-  addArticle(messageId: number, article: Article): Promise<void>;
-  updateArticle(article: Article): Promise<void>;
-  findArticle(id: string): Promise<ArticleSchema | undefined>;
+  addPost(messageId: number, post: Post): Promise<void>;
+  updatePost(post: Post): Promise<void>;
+  findPost(id: string): Promise<PostSchema | undefined>;
 }
 
 @Service()
 export class Repository implements IRepository {
-  #articles: Collection<ArticleSchema>;
+  #posts: Collection<PostSchema>;
 
   constructor(
     @Inject(types.mongo)
     mongo: MongoClient
   ) {
-    this.#articles = mongo.database("qiita_trend").collection("articles");
+    this.#posts = mongo.database("velog_trend").collection("posts");
   }
 
-  async findArticle(id: string) {
-    return await this.#articles.findOne({ _id: id });
+  async findPost(id: string) {
+    return await this.#posts.findOne({ _id: id });
   }
 
-  async addArticle(messageId: number, article: Article) {
-    await this.#articles.insertOne({
-      _id: article.uuid,
-      article,
+  async addPost(messageId: number, post: Post) {
+    await this.#posts.insertOne({
+      _id: post.id,
+      post,
       messageId,
     });
   }
-  async updateArticle(article: Article) {
-    await this.#articles.updateOne(
-      { _id: article.uuid },
+
+  async updatePost(post: Post) {
+    await this.#posts.updateOne(
+      { _id: post.id },
       {
         $set: {
-          article,
+          post,
         },
       }
     );
