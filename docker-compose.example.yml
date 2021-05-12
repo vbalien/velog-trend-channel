@@ -10,6 +10,7 @@ services:
       MONGO_HOST: mongo
       BOT_TOKEN: YOUR_BOT_TOKEN
       CHANNEL: YOUR_CHANNEL_NAME
+      SCHEDULE: 0 * * * *
 
   mongo:
     image: mongo
