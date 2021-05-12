@@ -22,6 +22,9 @@ export class App implements IApp {
   private async fetchData() {
     const res = await fetch("https://v2.velog.io/graphql", {
       method: "POST",
+      headers: {
+        "content-type": "application/json",
+      },
       body: JSON.stringify({
         operationName: "TrendingPosts",
         variables: { limit: 24 },
