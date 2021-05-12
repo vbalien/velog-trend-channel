@@ -6,4 +6,5 @@ Dockerfile
 test
 .github
 .vscode
+.vim
 .gitignore
