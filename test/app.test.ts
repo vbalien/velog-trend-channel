@@ -5,9 +5,10 @@ import {
 } from "https://deno.land/std@0.95.0/testing/asserts.ts";
 import { stub } from "https://deno.land/x/mock@v0.9.5/stub.ts";
 
-import { App, Edge, TrendFeed } from "../src/app.ts";
+import { App } from "../src/app.ts";
 import { TelegramBot } from "../src/deps.ts";
-import { ArticleSchema, IRepository } from "../src/repository.ts";
+import { IRepository } from "../src/repository.ts";
+import { ArticleSchema, Edge, TrendFeed } from "../src/types.ts";
 
 async function loadFixture(name: string): Promise<string> {
   return await Deno.readTextFile(`./test/fixture/${name}`);

@@ -1,12 +1,7 @@
 import { types } from "./constants.ts";
-import { Article } from "./app.ts";
 import { Collection, Inject, MongoClient, Service } from "./deps.ts";
+import { Article, ArticleSchema } from "./types.ts";
 
-export interface ArticleSchema {
-  _id: string;
-  messageId: number;
-  article: Article;
-}
 export interface IRepository {
   addArticle(messageId: number, article: Article): Promise<void>;
   updateArticle(article: Article): Promise<void>;
