@@ -30,8 +30,8 @@ export class Repository implements IRepository {
 
   async addArticle(messageId: number, article: Article) {
     await this.#articles.insertOne({
-      ...article,
       _id: article.uuid,
+      article,
       messageId,
     });
   }
