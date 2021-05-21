@@ -27,9 +27,9 @@ export class App implements IApp {
       },
       body: JSON.stringify({
         operationName: "TrendingPosts",
-        variables: { limit: 24 },
+        variables: { limit: 24, timeframe: "week" },
         query:
-          "query TrendingPosts($limit: Int, $offset: Int, $timeframe: String) {  trendingPosts(limit: $limit, offset: $offset, timeframe: $timeframe) {\n    id\n    title\n    short_description\n    thumbnail\n    likes\n    user {\n      id\n      username\n      profile {\n        id\n        thumbnail\n        __typename\n      }\n      __typename\n    }\n    url_slug\n    released_at\n    updated_at\n    comments_count\n    tags\n    is_private\n    __typename\n  }\n}\n",
+          "query TrendingPosts($limit: Int, $offset: Int, $timeframe: String) {\n  trendingPosts(limit: $limit, offset: $offset, timeframe: $timeframe) {\n    id\n    title\n    short_description\n    thumbnail\n    likes\n    user {\n      id\n      username\n      profile {\n        id\n        thumbnail\n        __typename\n      }\n      __typename\n    }\n    url_slug\n    released_at\n    updated_at\n    comments_count\n    tags\n    is_private\n    __typename\n  }\n}\n",
       }),
     });
     const data = await res.json();

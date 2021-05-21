@@ -2,199 +2,26 @@
   "data": {
     "trendingPosts": [
       {
-        "id": "7187efb6-c408-4124-ac8b-54f8b9e0a7f3",
-        "title": "🎆 프론트개발자 연봉 떡상하는 스킬 - GLSL",
-        "short_description": "🙁 이 스킬 배우는 걸 더 미루면, 연봉 인상도 미뤄집니다! 프론트 개발자라면 꼭 한번 배워봐야할 스킬을 공개합니다!",
-        "thumbnail": "https://images.velog.io/images/kimbyungchan/post/ea928d64-f5b3-41cd-9571-61afbef962d5/ezgif-3-484dbbe3e733.gif",
-        "likes": 105,
-        "user": {
-          "id": "8ecccbdf-f686-401d-83b7-ad928fec5241",
-          "username": "kimbyungchan",
-          "profile": {
-            "id": "20a0012d-a7f3-410b-b34c-0551b28a2a87",
-            "thumbnail": "https://images.velog.io/images/kimbyungchan/profile/1eb4965a-553d-40b2-9bb3-323fd370cd16/김병찬 프로필_흑백_02.png",
-            "__typename": "UserProfile"
-          },
-          "__typename": "User"
-        },
-        "url_slug": "셰이더-보고만-있을-거야",
-        "released_at": "2021-04-21T16:09:47.022Z",
-        "updated_at": "2021-05-12T19:03:48.765Z",
-        "comments_count": 8,
-        "tags": ["Effect", "GLSL", "Shader", "WebGL", "canvas", "typescript"],
-        "is_private": false,
-        "__typename": "Post"
-      },
-      {
-        "id": "182fb7b1-793e-406b-894a-67f6e75f4d7b",
-        "title": "[번역] 자바스크립트 시각화 : 이벤트 루프",
-        "short_description": "자바스크립트 시각화 : 이벤트 루프 번역하기 ",
-        "thumbnail": "https://images.velog.io/images/jjunyjjuny/post/e7f0d557-1fab-4a61-ae8e-b5cb1a911b09/ek7ji4zrimozpp2yzk0a.png",
-        "likes": 97,
-        "user": {
-          "id": "99f2bd87-052f-45f4-9592-d8fba4d3693c",
-          "username": "jjunyjjuny",
-          "profile": {
-            "id": "26df88a4-0c40-4f22-a11b-fbf5b4bb9891",
-            "thumbnail": "https://images.velog.io/images/jjunyjjuny/profile/c154920b-b1a4-45e8-9eb1-f0fafb75957c/social.png",
-            "__typename": "UserProfile"
-          },
-          "__typename": "User"
-        },
-        "url_slug": "번역-자바스크립트-시각화-이벤트-루프",
-        "released_at": "2021-03-30T18:13:11.301Z",
-        "updated_at": "2021-05-12T17:17:58.722Z",
-        "comments_count": 8,
-        "tags": ["EventLoop", "JavaScript", "번역"],
-        "is_private": false,
-        "__typename": "Post"
-      },
-      {
-        "id": "9ab727e7-85cc-48bd-bc1b-627bc9b6fddd",
-        "title": "카드 뒤집기 애니메이션",
-        "short_description": "카드 뒤집기 애니메이션을 만들어보자!",
-        "thumbnail": "https://images.velog.io/images/gicomong/post/8d124099-3c88-4c20-9798-3d8584ac306a/gif (4).gif",
-        "likes": 60,
-        "user": {
-          "id": "62e13441-94db-4dff-904a-794bfd30b782",
-          "username": "gicomong",
-          "profile": {
-            "id": "8c773a08-d67b-405a-936e-9391f635f6f7",
-            "thumbnail": "https://images.velog.io/images/gicomong/profile/5774970e-7d94-41a7-ac7b-e2d7b5962706/title.png",
-            "__typename": "UserProfile"
-          },
-          "__typename": "User"
-        },
-        "url_slug": "reverse-card",
-        "released_at": "2021-04-13T13:39:14.541Z",
-        "updated_at": "2021-05-12T16:59:19.617Z",
-        "comments_count": 16,
-        "tags": [
-          "animation",
-          "perspective",
-          "scss random()",
-          "transform-style"
-        ],
-        "is_private": false,
-        "__typename": "Post"
-      },
-      {
-        "id": "45dcb815-f90d-4cb8-bb10-571b0d4b8320",
-        "title": "[JS] 비동기처리, 흐름대로 이해하기",
-        "short_description": "자바스크립트의 비동기 처리, 콜백 패턴부터 promise와 async/await 까지! 흐름대로 알아보기😊",
-        "thumbnail": "https://images.velog.io/images/juno7803/post/63777352-6281-451d-b7eb-2565e09daf7e/javascript.png",
-        "likes": 53,
-        "user": {
-          "id": "f1624a55-a891-4887-83bc-37c18853076e",
-          "username": "juno7803",
-          "profile": {
-            "id": "689fb6be-856d-4f35-a79c-67fcd4f7a8b2",
-            "thumbnail": "https://images.velog.io/images/juno7803/profile/16065ae3-e026-4bff-895b-9b84e3c1d815/IMG_9063.jpg",
-            "__typename": "UserProfile"
-          },
-          "__typename": "User"
-        },
-        "url_slug": "JS비동기-처리와-에러-핸들링",
-        "released_at": "2021-04-23T16:30:25.190Z",
-        "updated_at": "2021-05-12T18:24:33.453Z",
-        "comments_count": 4,
-        "tags": ["async/await", "js", "promise", "콜백함수"],
-        "is_private": false,
-        "__typename": "Post"
-      },
-      {
-        "id": "c7e469eb-1cb5-47a3-b4f9-1e70cc1eb954",
-        "title": "JWT는 어디에 저장해야할까? - localStorage vs cookie",
-        "short_description": "이번에 지하철 미션을 만들면서 JWT를 클래스 property에 저장했었는데\n리뷰어 분께 해당 부분을 피드백 받으면서 어디에 JWT를 저장하는 것이 좋을까\n에 대해 고민해보게 되었다.\n\n0. 기본 지식\n\nJWT\nJson Web Token의 약자로 모바일이나 웹의 사용자",
-        "thumbnail": "https://images.velog.io/images/0307kwon/post/93678338-1f8c-448b-8739-e8f2b3d64f05/제목 없음.png",
-        "likes": 91,
-        "user": {
-          "id": "21a0b936-897d-43eb-8033-28ee8058a9b3",
-          "username": "0307kwon",
-          "profile": {
-            "id": "4e9a2c6d-b31f-490a-9fc1-3fa4402dd676",
-            "thumbnail": "https://images.velog.io/images/0307kwon/profile/2f47f83f-dc37-4b65-9a60-5cdd10c7c7a5/KakaoTalk_20210406_221205669.jpg",
-            "__typename": "UserProfile"
-          },
-          "__typename": "User"
-        },
-        "url_slug": "JWT는-어디에-저장해야할까-localStorage-vs-cookie",
-        "released_at": "2021-04-06T12:26:23.623Z",
-        "updated_at": "2021-05-12T17:22:49.876Z",
-        "comments_count": 14,
-        "tags": ["JWT", "XSS", "cookie", "csrf", "localstorage"],
-        "is_private": false,
-        "__typename": "Post"
-      },
-      {
-        "id": "3b8fad11-e7c5-4dec-bece-0a9dacb8a8be",
-        "title": "이제 갓 두달된 신입 개발자의 일기",
-        "short_description": "나의 전공은??!\n분명 작년까지만 해도 생명공학과에서 남들과 같이 제약회사나 화장품회사등에 취직할 생각이었던 것 같다.\n\n위 사진처럼 실험실에서 인턴을 한 경험도 있다.\n\n예상치 못했던 코로나가 터지고, 자취방에 반타의적으로 갇혀서 그동안 배웠던 파이썬으로 Django",
-        "thumbnail": "https://images.velog.io/images/taeung/post/e495774f-2251-4faa-a683-3ae6535fd321/duckling-1596725_1920.jpg",
-        "likes": 58,
-        "user": {
-          "id": "fcb546d2-e049-4b1a-8fc1-4d6efd11d1f3",
-          "username": "taeung",
-          "profile": {
-            "id": "fc8c151c-b241-495e-9d64-9cab4380e1a6",
-            "thumbnail": "https://images.velog.io/images/taeung/profile/02d2e951-34b1-48ad-8fad-ca0a9d376dbc/KakaoTalk_20210110_235206851.jpg",
-            "__typename": "UserProfile"
-          },
-          "__typename": "User"
-        },
-        "url_slug": "이제-갓-두달된-신입-개발자의-일기",
-        "released_at": "2021-04-03T11:13:00.772Z",
-        "updated_at": "2021-05-12T18:10:04.568Z",
-        "comments_count": 21,
-        "tags": ["비전공자", "신입 개발자", "일기", "프론트엔드"],
-        "is_private": false,
-        "__typename": "Post"
-      },
-      {
-        "id": "0d7415fe-1f90-404e-8716-cad3aa7d5aaf",
-        "title": "코딩테스트는 정말 필요한가?",
-        "short_description": "십년쯤 전인가 디자인 패턴이 유행하면서 모든 면접 예상 질문에 디자인 패턴이 필수였던 적이 있어요.\n분명 디자인 패턴이 더 좋은 설계를 위한 가이드이지만 언제 어디서든 사용 가능한 절대 철칙이 아니라는 것을 간과한 채 누가 더 많은 패턴 이름을 외우고 있는지가 면접의 ",
+        "id": "6ca9fa4e-2719-46ca-a035-f4429a37cf0f",
+        "title": "프론트엔드 면접 질문 정리",
+        "short_description": "제가 면접 보면서 질문 받았던 면접 질문들을 총정리 합니다. 여러 IT 대기업들 그리고 여러 스타트업들의 내용들을 정리하였습니다.DOCTYPE 이란 무엇인가요?여러 meta 태그들에 대한 질문시맨틱 태그란 무엇인가요?position에 대해 설명해주세요.display에 ",
         "thumbnail": null,
-        "likes": 68,
+        "likes": 109,
         "user": {
-          "id": "094b6847-8135-4c3e-817b-a635a4b3f999",
-          "username": "koeunyeon",
+          "id": "bde8b12b-ad35-4487-b551-fefb24ab4cec",
+          "username": "ansrjsdn",
           "profile": {
-            "id": "a7c15ff7-fe52-4bf4-8e4a-da9e911e17b4",
-            "thumbnail": "https://images.velog.io/images/koeunyeon/profile/7553dedc-76e4-49ab-a0d7-b9ad5afa2d5c/IMG_3952.jpeg",
+            "id": "56b9192b-e695-491d-8aa7-e9f25c6966b7",
+            "thumbnail": "https://images.velog.io/images/ansrjsdn/profile/a5b6611e-8807-40e2-91be-2fc21b0ade2f/social.jpeg",
             "__typename": "UserProfile"
           },
           "__typename": "User"
         },
-        "url_slug": "코딩테스트는-정말-필요한가",
-        "released_at": "2021-04-03T00:22:47.603Z",
-        "updated_at": "2021-05-12T17:05:13.761Z",
-        "comments_count": 26,
-        "tags": [],
-        "is_private": false,
-        "__typename": "Post"
-      },
-      {
-        "id": "820b2cca-0530-49db-8ce4-5b65a20d86de",
-        "title": "[Recoil] Recoil 200% 활용하기",
-        "short_description": "아무리 구글링해도 Recoil 기본 예제밖에 나오지 않아 직접 작성한 Recoil 200% 활용법 🙃",
-        "thumbnail": "https://images.velog.io/images/juno7803/post/96b970e7-445c-48e2-9bc3-b6e45b55d538/recoil.png",
-        "likes": 74,
-        "user": {
-          "id": "f1624a55-a891-4887-83bc-37c18853076e",
-          "username": "juno7803",
-          "profile": {
-            "id": "689fb6be-856d-4f35-a79c-67fcd4f7a8b2",
-            "thumbnail": "https://images.velog.io/images/juno7803/profile/16065ae3-e026-4bff-895b-9b84e3c1d815/IMG_9063.jpg",
-            "__typename": "UserProfile"
-          },
-          "__typename": "User"
-        },
-        "url_slug": "Recoil-Recoil-200-활용하기",
-        "released_at": "2021-04-12T05:21:23.699Z",
-        "updated_at": "2021-05-12T15:57:13.302Z",
-        "comments_count": 22,
-        "tags": ["React", "Recoil"],
+        "url_slug": "프론트엔드-면접-질문-정리",
+        "released_at": "2021-05-10T15:34:54.004Z",
+        "updated_at": "2021-05-21T16:09:54.354Z",
+        "comments_count": 7,
+        "tags": ["면접", "프론트엔드"],
         "is_private": false,
         "__typename": "Post"
       },
@@ -203,7 +30,7 @@
         "title": "멋진 스타트업처럼 토이 프로젝트하는 비결 🚀",
         "short_description": "💡 뇌피셜이 아닌 데이터 기반으로 제품 만들기 💡",
         "thumbnail": "https://images.velog.io/images/ajufresh/post/49a538e6-5bcd-4854-9c2c-69b0e70f3c60/ShabbyAcidicJellyfish-max-1mb.gif",
-        "likes": 24,
+        "likes": 102,
         "user": {
           "id": "f90d4290-3fd1-4747-8c97-9e1b9b39cf33",
           "username": "ajufresh",
@@ -216,162 +43,90 @@
         },
         "url_slug": "똑똑한-스타트업처럼-토이-프로젝트하는-비결",
         "released_at": "2021-05-12T14:04:38.404Z",
-        "updated_at": "2021-05-12T19:04:17.300Z",
-        "comments_count": 2,
-        "tags": [],
-        "is_private": false,
-        "__typename": "Post"
-      },
-      {
-        "id": "7bc76b0a-de8d-4bca-a50d-78ca02e91284",
-        "title": "소프트웨어 개발 3대 원칙",
-        "short_description": "DRY (Don't Repeat Yourself): 반복하지 마라반복하지 말라.같은 기능의 같은 코드가 중복되어 있다면 하나의 기능으로 만들어 사용하라. (Ctrl + C / Ctrl + V 금지!!!)반복되는 코드를 모두 찾아서 수정해야하므로 실수 혹은 버그 발생의 ",
-        "thumbnail": "https://images.velog.io/images/bbio3o/post/bace6169-dc04-42de-a19b-f2c2f1f1a2cf/What's in store for us_.jpg",
-        "likes": 43,
-        "user": {
-          "id": "c4539b3c-39db-427a-a1a5-d6626e4fa0db",
-          "username": "bbio3o",
-          "profile": {
-            "id": "e1c98fd4-9f76-44d5-9b20-56a46a5d4125",
-            "thumbnail": "https://images.velog.io/images/bbio3o/profile/2050a97c-f46b-4677-9e85-665a0cab1cbc/스크린샷 2021-01-04 오후 4.12.00.jpg",
-            "__typename": "UserProfile"
-          },
-          "__typename": "User"
-        },
-        "url_slug": "소프트웨어-개발-3대-원칙",
-        "released_at": "2021-04-12T03:45:05.035Z",
-        "updated_at": "2021-05-12T17:05:25.146Z",
-        "comments_count": 0,
-        "tags": [],
-        "is_private": false,
-        "__typename": "Post"
-      },
-      {
-        "id": "c9ffa6a9-7fde-4b19-9cbb-e426eb443bf7",
-        "title": "[짤막글] useMemo를 사용해보자",
-        "short_description": "안녕하세요. 김용성입니다. 오늘은 react 생태계에서 렌더링 최적화를 위해 사용되는 hook인 useMemo에 대해서 알아보겠습니다.",
-        "thumbnail": "https://images.velog.io/images/kysung95/post/6145cef0-948f-4d04-a097-a76283207719/제목을 입력해주세요.-001.png",
-        "likes": 24,
-        "user": {
-          "id": "b67588cf-4714-492a-bff2-f8224b3efc30",
-          "username": "kysung95",
-          "profile": {
-            "id": "28493ad8-cde9-4d92-8383-a0887a858233",
-            "thumbnail": "https://images.velog.io/images/kysung95/profile/e9f98979-7441-4171-9fc3-4f6801686ed9/social.jpeg",
-            "__typename": "UserProfile"
-          },
-          "__typename": "User"
-        },
-        "url_slug": "짤막글-useMemo",
-        "released_at": "2021-04-12T12:58:29.460Z",
-        "updated_at": "2021-05-12T16:50:07.901Z",
-        "comments_count": 3,
-        "tags": ["React", "frontend", "react native", "짤막글"],
-        "is_private": false,
-        "__typename": "Post"
-      },
-      {
-        "id": "238a7920-f428-4a43-8fc2-30ae164f9796",
-        "title": "[React] 웹 동작 과정과 React의 탄생 ",
-        "short_description": "React가 탄생하게된 배경과 어떻게 동작하는지 넓고 얕게 알아봐요 😆",
-        "thumbnail": "https://images.velog.io/images/juno7803/post/a032a564-70cd-49a4-a76c-fe09d3b11646/IMG_3488799BAF4B-1.jpeg",
-        "likes": 31,
-        "user": {
-          "id": "f1624a55-a891-4887-83bc-37c18853076e",
-          "username": "juno7803",
-          "profile": {
-            "id": "689fb6be-856d-4f35-a79c-67fcd4f7a8b2",
-            "thumbnail": "https://images.velog.io/images/juno7803/profile/16065ae3-e026-4bff-895b-9b84e3c1d815/IMG_9063.jpg",
-            "__typename": "UserProfile"
-          },
-          "__typename": "User"
-        },
-        "url_slug": "React가-태어난-배경",
-        "released_at": "2021-04-15T14:56:26.326Z",
-        "updated_at": "2021-05-12T16:57:50.694Z",
+        "updated_at": "2021-05-21T16:09:02.973Z",
         "comments_count": 8,
-        "tags": ["React", "web"],
+        "tags": [],
         "is_private": false,
         "__typename": "Post"
       },
       {
-        "id": "8ff2850f-eeec-416b-8598-1b3458d9c44a",
-        "title": "모바일 UI･UX 디자인 시 고려해야 할 가이드라인 48가지",
-        "short_description": "본 포스팅은 최철호님의 모바일 UI･UX 디자인 시 고려해야 할 가이드라인을 정리한 글입니다. 요약의 목적으로 작성했습니다.\n\n> 이 가이드는 바이블이 아닙니다. 절대적인 원칙은 없으므로 무조건적으로 지킬 필요는 없습니다. 단지 모바일에서 최적의 UX 디자인을 하기 위",
-        "thumbnail": "https://images.velog.io/images/dnr6054/post/9a11b74b-10b6-4a94-b1ab-f4abbc2203e6/Logoo.png",
-        "likes": 22,
+        "id": "677a5880-785c-49f6-b70d-ab8f41f8cac2",
+        "title": "트렌딩 기간 설정 및 광고 지면 안내",
+        "short_description": "안녕하세요 여러분!간만에 벨로그를 업데이트하게 되었습니다.그 동안 바빠서 벨로그에 새 기능을 탑재하질 못하고 있었는데, 이번달 부터 조금씩 시간 내서 진행해보려고 합니다 :)이번에 추가된 기능은 트렌딩의 기간 설정 기능입니다.그 동안 트렌딩 페이지는 45일간 동안 작성",
+        "thumbnail": "https://images.velog.io/images/velog/post/4de45f59-cc1b-41a8-a2c3-401080f6e7ac/스크린샷 2021-05-16 오전 6.25.13.png",
+        "likes": 36,
         "user": {
-          "id": "f0a3f093-e3d6-416e-91b2-519e7cc2338e",
-          "username": "dnr6054",
+          "id": "7ccba590-fcb2-11e9-818a-9361060d2cba",
+          "username": "velog",
           "profile": {
-            "id": "75f4f349-fff6-4444-b688-e4cd9795d30c",
-            "thumbnail": "https://images.velog.io/images/dnr6054/profile/f6939d59-8944-47df-a305-d3a8851620a5/Logoo.png",
+            "id": "7ccc41d0-fcb2-11e9-818a-9361060d2cba",
+            "thumbnail": "https://images.velog.io/images/velog/profile/9aa07f66-5fcd-41f4-84f2-91d73afcec28/green favicon.png",
             "__typename": "UserProfile"
           },
           "__typename": "User"
         },
-        "url_slug": "모바일-UI･UX-디자인-시-고려해야-할-가이드라인-50가지",
-        "released_at": "2021-04-28T04:45:20.058Z",
-        "updated_at": "2021-05-12T15:19:04.147Z",
-        "comments_count": 1,
-        "tags": ["UI/UX Design"],
+        "url_slug": "트렌딩-기간-설정-및-광고-지면-안내",
+        "released_at": "2021-05-15T21:25:39.472Z",
+        "updated_at": "2021-05-21T16:05:56.622Z",
+        "comments_count": 17,
+        "tags": ["벨로그", "업데이트"],
         "is_private": false,
         "__typename": "Post"
       },
       {
-        "id": "c311e113-ebd4-42be-bd15-b36814cc4d0d",
-        "title": "브라우저에 google.com을 치면 무슨 일이 일어날까? (아니, 진짜로) - 네트워크편",
-        "short_description": "기술 면접을 가게 되면 종종 듣게 되는 면접 질문입니다. 일반적으론 DNS, HTTPS에 대한 기본적인 작동 방식을 알고 있고 그걸 설명할 수 있는지 묻는 간단한 질문이고, 실제로도 그렇게 대답하면 아마 중간 이상은 갑니다. 하지만 그 뒤에서, 정말 브라우저가 하는 일",
-        "thumbnail": "https://images.velog.io/images/rtyu1120/post/e42833b0-825f-4e91-b47d-36e1f5d7ee05/capture.png",
-        "likes": 16,
+        "id": "7ac15c68-5a72-4026-96a2-4a0001d1b6c4",
+        "title": "[ React ] useState는 어떻게 동작할까",
+        "short_description": "useState의 동작 원리에 대해서",
+        "thumbnail": "https://images.velog.io/images/jjunyjjuny/post/fc13a953-a170-4e76-bb2a-ede8a0216717/use.png",
+        "likes": 39,
         "user": {
-          "id": "2c4aee20-515c-11e9-aa5d-89293e9414dc",
-          "username": "rtyu1120",
+          "id": "99f2bd87-052f-45f4-9592-d8fba4d3693c",
+          "username": "jjunyjjuny",
           "profile": {
-            "id": "2c4bd880-515c-11e9-aa5d-89293e9414dc",
-            "thumbnail": "https://images.velog.io/images/rtyu1120/profile/b9240f20-515c-11e9-aa5d-89293e9414dc/basixlab.png",
+            "id": "26df88a4-0c40-4f22-a11b-fbf5b4bb9891",
+            "thumbnail": "https://images.velog.io/images/jjunyjjuny/profile/c154920b-b1a4-45e8-9eb1-f0fafb75957c/social.png",
             "__typename": "UserProfile"
           },
           "__typename": "User"
         },
-        "url_slug": "브라우저에-google.com을-치면-무슨-일이-일어날까-아니-진짜로-네트워크편",
-        "released_at": "2021-04-30T15:36:42.381Z",
-        "updated_at": "2021-05-12T17:05:40.523Z",
-        "comments_count": 2,
-        "tags": ["웹"],
+        "url_slug": "React-useState는-어떻게-동작할까",
+        "released_at": "2021-05-09T09:08:47.574Z",
+        "updated_at": "2021-05-21T15:51:35.609Z",
+        "comments_count": 10,
+        "tags": ["React", "hooks", "useState"],
         "is_private": false,
         "__typename": "Post"
       },
       {
-        "id": "e8b40c51-5721-4649-8cb6-897858c87afd",
-        "title": "하노이의 탑과 연역적 사고법",
-        "short_description": "도당채 하노이 알고리즘 연습을 어디다가 써먹을 수 있는데??",
-        "thumbnail": "https://images.velog.io/images/mgm-dev/post/ef8270e0-026f-4dfe-910b-398febc29b9c/Tower_of_Hanoi.jpeg",
-        "likes": 25,
+        "id": "62e69ead-43d6-4da4-bf4f-315a0f265e2f",
+        "title": "노래하는 유령 웹 게임 만들기",
+        "short_description": "나의 미니 프로젝트, 노래하는 유령 게임",
+        "thumbnail": "https://images.velog.io/images/gicomong/post/021ab330-ae98-400e-be2e-0d53db49bb0e/gif (2).gif",
+        "likes": 13,
         "user": {
-          "id": "977065aa-7bd8-48ee-9111-a1ac7a9e8607",
-          "username": "mgm-dev",
+          "id": "62e13441-94db-4dff-904a-794bfd30b782",
+          "username": "gicomong",
           "profile": {
-            "id": "04ee7a9a-8674-40f7-a708-9bb2e5d9c5d6",
-            "thumbnail": "https://images.velog.io/images/mgm-dev/profile/76927dd7-398c-4f09-baee-29391748b697/circle-cropped.png",
+            "id": "8c773a08-d67b-405a-936e-9391f635f6f7",
+            "thumbnail": "https://images.velog.io/images/gicomong/profile/5774970e-7d94-41a7-ac7b-e2d7b5962706/title.png",
             "__typename": "UserProfile"
           },
           "__typename": "User"
         },
-        "url_slug": "알고리즘-공부의-필요성-feat.재귀",
-        "released_at": "2021-04-21T14:40:11.879Z",
-        "updated_at": "2021-05-12T16:55:29.557Z",
-        "comments_count": 0,
-        "tags": ["기본", "알고리즘", "재귀"],
+        "url_slug": "노래하는-유령-게임-만들기",
+        "released_at": "2021-05-15T14:11:19.143Z",
+        "updated_at": "2021-05-21T16:09:32.293Z",
+        "comments_count": 11,
+        "tags": ["Js로노래하는게임만들기", "미니프로젝트"],
         "is_private": false,
         "__typename": "Post"
       },
       {
         "id": "c4d5514e-72b1-40eb-a261-529b9c0218cd",
-        "title": "SW 마이스터고 학생의 여정",
-        "short_description": "반가워요:) 평범한 고2 전지환의 여정을 소개합니다.",
+        "title": "내가 마이스터고를 결정하게 되기까지 그리고 현재까지의 회고",
+        "short_description": "평범하지만은 않은 마이스터고 학생의 여정 🏄🏻‍♂️",
         "thumbnail": "https://images.velog.io/images/johnjihwan/post/5b4f9461-9df6-4b6d-98f8-3ebef897cac8/travel.gif",
-        "likes": 14,
+        "likes": 28,
         "user": {
           "id": "3dd98385-8035-4e7e-a910-9bad63af662a",
           "username": "johnjihwan",
@@ -384,8 +139,8 @@
         },
         "url_slug": "its-jihwan",
         "released_at": "2021-05-08T11:51:22.180Z",
-        "updated_at": "2021-05-12T18:38:20.478Z",
-        "comments_count": 8,
+        "updated_at": "2021-05-21T15:27:47.906Z",
+        "comments_count": 10,
         "tags": [
           "개발자",
           "과정",
@@ -399,203 +154,452 @@
         "__typename": "Post"
       },
       {
-        "id": "bd01cdb1-fdaa-4168-b0ed-7ce0d45fa470",
-        "title": "AWS SES(Simple Email Service) 세팅 및 Gmail 리다이렉션",
-        "short_description": "AWS SES(Simple Email Service)를 이용한 회사 도메인 이메일로 수신된 메일을 Gmail 계정으로 자동 전달 설정 과정",
-        "thumbnail": "https://images.velog.io/images/charming__kyu/post/b475077d-6e69-40ac-a721-799b5840a438/스크린샷 2021-05-01 오후 9.59.08.png",
-        "likes": 15,
+        "id": "04198bc4-fcde-4edb-a881-eea748d3058b",
+        "title": "ISMS 1편 - AWS(+EKS)에서 업무 환경 망분리",
+        "short_description": "안녕하세요 최제필입니다 :) 이번 글에선 AWS 환경에서 ISMS 인증을 위해 망분리를 적용한 경험에 대해 공유하고자 합니다.",
+        "thumbnail": "https://images.velog.io/images/owen1025/post/91341127-d013-4d89-b04b-4f7d8da610af/final.png",
+        "likes": 7,
         "user": {
-          "id": "90a100c7-5960-4e08-9c68-34dff3e9208b",
-          "username": "charming__kyu",
+          "id": "4fa01da7-1daa-49a7-8e39-5551831141dc",
+          "username": "owen1025",
           "profile": {
-            "id": "4b33a825-219e-485e-a45b-129c9cfc2138",
-            "thumbnail": "https://images.velog.io/images/charming__kyu/profile/4e528311-d347-45f8-b929-c98eee4c8017/KakaoTalk_Photo_2021-05-02-01-33-04.jpeg",
+            "id": "ae4f932c-e413-4ced-a01b-8ca0676c6819",
+            "thumbnail": "https://images.velog.io/images/owen1025/profile/ed089cbd-69d5-4315-b835-cb6aad5219b5/social.png",
             "__typename": "UserProfile"
           },
           "__typename": "User"
         },
-        "url_slug": "AWS-SES-세팅-및-gmail-연동",
-        "released_at": "2021-05-01T13:11:19.711Z",
-        "updated_at": "2021-05-12T14:34:37.702Z",
-        "comments_count": 6,
-        "tags": ["AWS S3", "AWS SES", "aws", "aws lambda"],
+        "url_slug": "ISMS-1편-AWSEKS에서-업무-환경-망-분리",
+        "released_at": "2021-05-17T11:28:47.383Z",
+        "updated_at": "2021-05-21T16:07:27.181Z",
+        "comments_count": 2,
+        "tags": ["ISMS", "aws", "eks", "kubernetes", "vpc endpoint", "망분리"],
         "is_private": false,
         "__typename": "Post"
       },
       {
-        "id": "b0d50f52-5865-415a-ae25-bf7ddd28b0f6",
-        "title": "[핫서소] 2편 : 메타버스 플랫폼",
-        "short_description": "핫서소 : HOT한 서비스 소개!\n2편 : 메타버스 플랫폼\n\n",
-        "thumbnail": "https://images.velog.io/images/chaewon1121/post/f8b1edd9-83cd-4e23-95b2-7bdaa1b9f531/메타버스썸네일.png",
-        "likes": 14,
+        "id": "920122fd-4169-4356-bae9-53ef144a44f2",
+        "title": "😡 Graph Database, 아직도 몰라?",
+        "short_description": "핫한 Graph Database에 대해서 알아봅니다.",
+        "thumbnail": "https://images.velog.io/images/mnjsk7541/post/6b88237d-9207-4370-bb80-0b3db878a42f/Graph.database.Tigergraph.png",
+        "likes": 17,
         "user": {
-          "id": "f0945a7d-c9b4-4c58-8076-7141ca5dde12",
-          "username": "chaewon1121",
+          "id": "3d3b5390-a584-4ffe-a3a5-67d69d61365a",
+          "username": "mnjsk7541",
           "profile": {
-            "id": "b3c831bd-c542-49e2-972f-a7f1e7a131ae",
-            "thumbnail": "https://images.velog.io/images/chaewon1121/profile/92b5441f-a679-4ad1-b918-18f19d643acd/제3.png",
+            "id": "d025c04f-82cc-456c-8cbd-1e284a75f097",
+            "thumbnail": "https://images.velog.io/images/mnjsk7541/profile/6dbd9e11-b7c1-4c9e-8aa2-0a24ed560698/얼굴2.jpeg",
             "__typename": "UserProfile"
           },
           "__typename": "User"
         },
-        "url_slug": "핫서소-2편-메타버스-플랫폼",
-        "released_at": "2021-04-29T05:54:36.222Z",
-        "updated_at": "2021-05-12T16:30:08.824Z",
+        "url_slug": "Graph-Database-아직도-몰라",
+        "released_at": "2021-05-08T15:30:12.096Z",
+        "updated_at": "2021-05-21T15:31:01.847Z",
+        "comments_count": 12,
+        "tags": ["Database", "Graph", "gql", "graph database", "nosql", "sql"],
+        "is_private": false,
+        "__typename": "Post"
+      },
+      {
+        "id": "db049eec-6e54-45c2-973a-0d1ed1bb683b",
+        "title": "신뢰가 가는, 개발자의 7가지 특징 ",
+        "short_description": "함께 일하다보면 이 사람은 정말 믿고 맡기기 힘들다는 사람이 있는 반면에, 이 사람은 정말 신뢰하고 일을 맡길 수 있다는 느낌이 드는 사람이 있다. 내 주관적인 생각으로 '신뢰가 가는 개발자의 7가지 특징' 을 정리해 보았다. 기술적인 한계가 있어서든 쉽게 포기하는..",
+        "thumbnail": "https://images.velog.io/images/joosing/post/d1ff2dcd-3476-4bf0-8147-849753c09bbe/신뢰가 가는 개발자의 7가지특징(대표사진임).png",
+        "likes": 11,
+        "user": {
+          "id": "646a1063-9b7d-49eb-a1bd-a45d4d678714",
+          "username": "joosing",
+          "profile": {
+            "id": "db38b276-ea4e-458a-81db-4886bfb7baee",
+            "thumbnail": "https://images.velog.io/images/joosing/profile/86813aa8-00c4-4fb6-aa4a-9cdb013cec47/내사진.png",
+            "__typename": "UserProfile"
+          },
+          "__typename": "User"
+        },
+        "url_slug": "신뢰가-가는-개발자의-7가지-특징",
+        "released_at": "2021-05-16T16:05:46.855Z",
+        "updated_at": "2021-05-21T15:54:00.322Z",
+        "comments_count": 2,
+        "tags": ["2021", "생각", "소프트웨어 개발자", "프로덕트 오너"],
+        "is_private": false,
+        "__typename": "Post"
+      },
+      {
+        "id": "2bcfb987-52d6-4e9a-9178-6d5efb48a39a",
+        "title": "[Clean Code] 단위 테스트 (JS)",
+        "short_description": "클린 코드 중 TDD 관련 내용을 정리했습니다 🤔",
+        "thumbnail": "https://images.velog.io/images/mnz/post/28b717e5-28fc-40e9-b695-b9e6635ec045/회고-010.png",
+        "likes": 13,
+        "user": {
+          "id": "f217fb8d-c26d-4afa-9f8b-378be9aae192",
+          "username": "mnz",
+          "profile": {
+            "id": "dce22d3d-a8b5-473c-a437-451592242583",
+            "thumbnail": "https://images.velog.io/images/mnz/profile/ea815f4b-181d-4988-bace-fc7fde420743/social.jpeg",
+            "__typename": "UserProfile"
+          },
+          "__typename": "User"
+        },
+        "url_slug": "Clean-Code-단위-테스트-JS-z2zfvl3w",
+        "released_at": "2021-05-08T01:08:21.340Z",
+        "updated_at": "2021-05-21T15:40:25.361Z",
+        "comments_count": 4,
+        "tags": ["JavaScript", "cleancode", "test", "단위테스트"],
+        "is_private": false,
+        "__typename": "Post"
+      },
+      {
+        "id": "4ff94a77-5388-41e5-99ce-34ffdbc192fb",
+        "title": "여기어때 프로젝트 team 야, 여기어때",
+        "short_description": "💭 PROJECT OVERVIEW \n>숙박 예약  웹사이트인 여기어때 를 클론한 프로젝트\n\n평소 에어비앤비와 같은 숙박예약 사이트를 클론코딩하면 재밌겠다라는 생각을 하고 있었는데 이번 2차프로젝트에서 비슷한 플랫폼을 가진 '여기어때' 웹사이트를 클론코딩하게 되었다! ",
+        "thumbnail": "https://images.velog.io/images/itssweetrain/post/00bcfbb4-0ec1-41d8-8b44-1223e1ffc9b9/Main_BetterChoice.gif",
+        "likes": 12,
+        "user": {
+          "id": "3f61e15e-1a37-4581-b43f-8018d1a501d9",
+          "username": "itssweetrain",
+          "profile": {
+            "id": "53ac0b7e-3652-4faa-b3e2-8a0fd328fc13",
+            "thumbnail": "https://images.velog.io/images/itssweetrain/profile/2df659b5-7057-443a-bbd0-9ed36dfc889f/jerry4.gif",
+            "__typename": "UserProfile"
+          },
+          "__typename": "User"
+        },
+        "url_slug": "여기어때-클론프로젝트-team-야-여기어때",
+        "released_at": "2021-05-09T09:35:29.958Z",
+        "updated_at": "2021-05-21T15:21:26.686Z",
+        "comments_count": 16,
+        "tags": [
+          "React",
+          "TIL",
+          "WeCode",
+          "clone",
+          "project",
+          "project review",
+          "여기어때"
+        ],
+        "is_private": false,
+        "__typename": "Post"
+      },
+      {
+        "id": "dee0547a-834f-4dd8-9152-59d92ba1eb3b",
+        "title": "패스트캠퍼스 네카라쿠배 프론트엔드 스쿨 1기 - 4. 첫 번째 프로젝트",
+        "short_description": "마참내! 드디어! 첫 번째 팀 프로젝트를 완료했다! 🎉 일주일 이라는 정말 짧은 시간이었지만, 인생에 있어 첫 협업을 통해 많은 것을 배울 수 있었다. 물론 아쉬운 부분도 너무나 많지만 이는 앞으로 충분히 개선할 수 있을거라고 생각한다!\n\n🗓 일주일 간의 여정\n정말",
+        "thumbnail": "https://images.velog.io/images/kimjeongwonn/post/f43fef5b-27ce-48ea-854a-7a3ccf9776bd/4.jpg",
+        "likes": 5,
+        "user": {
+          "id": "37553bd1-bc2a-4d1a-a209-b227b8ce8bee",
+          "username": "kimjeongwonn",
+          "profile": {
+            "id": "05036ac0-32b5-4131-b6d0-a6f3bc590387",
+            "thumbnail": "https://images.velog.io/images/kimjeongwonn/profile/3ea951aa-adfe-4354-8488-86800716f2ea/social.png",
+            "__typename": "UserProfile"
+          },
+          "__typename": "User"
+        },
+        "url_slug": "패스트캠퍼스-네카라쿠배-프론트엔드-스쿨-1기-4.-첫-번째-프로젝트",
+        "released_at": "2021-05-09T06:10:25.378Z",
+        "updated_at": "2021-05-21T15:27:58.026Z",
         "comments_count": 6,
         "tags": [],
         "is_private": false,
         "__typename": "Post"
       },
       {
-        "id": "9bf75039-1fe3-4213-9a7c-19ebc087b46d",
-        "title": "[Node.js] JWT 구현하기 예제",
-        "short_description": "🔥Node.js Express로 JWT 간단하게 구현해보기🔥",
-        "thumbnail": "https://images.velog.io/images/charming__kyu/post/c6d67d50-5957-4a5f-9d75-6028906e63d5/img1.daumcdn.png",
-        "likes": 15,
+        "id": "c667a93e-63f5-4abd-92cb-5b8f0708ad7c",
+        "title": "[Paper Review] (2019, AAAI) Session-Based Recommendation with Graph Neural Networks",
+        "short_description": "\n작성자: 김현지\n1. Introduction\n1.1 Session-based Recommendation\n기존 추천 시스템은 대부분의 유저 프로필과 과거 행동 데이터들이 끊임없이 저장된다고 가정한다.\n하지만 실제 서비스에서는 유저의 신원을 모를 수도 있고, ",
+        "thumbnail": "https://images.velog.io/images/tobigs-recsys/post/0ee13b3c-7a87-4624-ba14-179485894c0c/thumb2.png",
+        "likes": 7,
         "user": {
-          "id": "90a100c7-5960-4e08-9c68-34dff3e9208b",
-          "username": "charming__kyu",
+          "id": "67f0a4a1-ac8f-49d1-bf82-bbbefcfa1d8a",
+          "username": "tobigs-recsys",
           "profile": {
-            "id": "4b33a825-219e-485e-a45b-129c9cfc2138",
-            "thumbnail": "https://images.velog.io/images/charming__kyu/profile/4e528311-d347-45f8-b929-c98eee4c8017/KakaoTalk_Photo_2021-05-02-01-33-04.jpeg",
+            "id": "94371653-0846-4107-afd1-3d873fa74c6e",
+            "thumbnail": "https://images.velog.io/images/tobigs-recsys/profile/ecb87393-0f20-4935-858a-cae245ec39b2/투빅스로고+귀엽게+색3.png",
             "__typename": "UserProfile"
           },
           "__typename": "User"
         },
-        "url_slug": "Node.js-JWT-구현하기",
-        "released_at": "2021-05-03T17:18:00.805Z",
-        "updated_at": "2021-05-12T16:39:02.888Z",
-        "comments_count": 2,
-        "tags": ["JWT", "express", "jsonwebtoken", "node.js", "restful api"],
-        "is_private": false,
-        "__typename": "Post"
-      },
-      {
-        "id": "4ef41ea2-9eb7-4614-8226-5cdbd82aed83",
-        "title": "[React] useRef 200% 활용하기",
-        "short_description": "useRef, 제대로 알고 사용해봐요 😁",
-        "thumbnail": "https://images.velog.io/images/juno7803/post/c26d781f-a12c-4a04-a05b-ad508d1ae3f0/react.jpg",
-        "likes": 25,
-        "user": {
-          "id": "f1624a55-a891-4887-83bc-37c18853076e",
-          "username": "juno7803",
-          "profile": {
-            "id": "689fb6be-856d-4f35-a79c-67fcd4f7a8b2",
-            "thumbnail": "https://images.velog.io/images/juno7803/profile/16065ae3-e026-4bff-895b-9b84e3c1d815/IMG_9063.jpg",
-            "__typename": "UserProfile"
-          },
-          "__typename": "User"
-        },
-        "url_slug": "React-useRef-200-활용하기",
-        "released_at": "2021-04-03T08:17:56.469Z",
-        "updated_at": "2021-05-12T14:40:20.009Z",
-        "comments_count": 4,
-        "tags": ["React", "hook"],
-        "is_private": false,
-        "__typename": "Post"
-      },
-      {
-        "id": "85dbb163-dfcd-4da0-8a73-b13f72067547",
-        "title": "💤 코로나 언택트 시대, 우리는 어떻게 수업 시간에 잘 수 있을까요?",
-        "short_description": "⭐️ 잠을 못 이루는 당신을 위한 시간 활용법",
-        "thumbnail": "https://images.velog.io/images/junhoyeo/post/83b8ef9b-6dc3-492b-ba3f-57500e299aed/IMG_1588.jpg",
-        "likes": 38,
-        "user": {
-          "id": "aae3d054-71b6-4cf9-8a9f-d47a205d1a3d",
-          "username": "junhoyeo",
-          "profile": {
-            "id": "ddcbe9b8-8eca-49b9-ab91-41509837574b",
-            "thumbnail": "https://images.velog.io/images/junhoyeo/profile/706d5311-41d8-45b8-bc96-ce11b078853a/photo_2020-08-07 08.35.57.jpeg",
-            "__typename": "UserProfile"
-          },
-          "__typename": "User"
-        },
-        "url_slug": "코로나-언택트-시대-우리는-어떻게-수업-시간에-잘-수-있을까요",
-        "released_at": "2021-04-17T00:04:35.806Z",
-        "updated_at": "2021-05-12T15:29:20.894Z",
-        "comments_count": 22,
-        "tags": ["실시간 수업", "자동화", "파이썬"],
-        "is_private": false,
-        "__typename": "Post"
-      },
-      {
-        "id": "2980aef6-b8ad-42ac-8618-46cf868ece7c",
-        "title": "🤔개발천재가 되려면 들여쓰기부터 잘하라고?",
-        "short_description": "학부생 시절 좋은 코드라 함은 남들 10줄 쓸 코드를 2줄에 끝마치는 코드라고 생각했다.흔히 백준 같은 사이트에서 알고리즘 문제 풀이를 봤을 때 최 상위에 올라간 그런 코드 말이다.물론 그 부분도 중요하다. 하지만 그보다 더 중요한게 있다.제작년 여름 ICT 인턴을 통",
-        "thumbnail": "https://images.velog.io/images/sik2/post/a209f73c-c290-4dc0-ab0e-9517c64a5fc7/image.png",
-        "likes": 12,
-        "user": {
-          "id": "d67b6f60-db49-11e9-9ea2-5355665a7cda",
-          "username": "sik2",
-          "profile": {
-            "id": "d6da5840-db49-11e9-9ea2-5355665a7cda",
-            "thumbnail": "https://images.velog.io/profiles/sik2/thumbnails/1568944579.318.jpeg",
-            "__typename": "UserProfile"
-          },
-          "__typename": "User"
-        },
-        "url_slug": "개발천재가-되려면-들여쓰기부터-잘하라고",
-        "released_at": "2021-05-06T17:31:52.040Z",
-        "updated_at": "2021-05-12T16:39:50.729Z",
-        "comments_count": 1,
+        "url_slug": "Session-Based-Recommendation-with-Graph-Neural-Networks",
+        "released_at": "2021-05-15T03:40:32.090Z",
+        "updated_at": "2021-05-21T12:48:21.775Z",
+        "comments_count": 5,
         "tags": [
-          "개발천재",
-          "들여쓰기",
-          "리펙토링",
-          "생각정리",
-          "인수인계",
-          "주석",
-          "코드",
-          "회고"
+          "Graph Neural Networks",
+          "Recommender System",
+          "Session-Based Recommendation"
         ],
         "is_private": false,
         "__typename": "Post"
       },
       {
-        "id": "710ddb9c-84eb-4e01-aabd-2f3d521cf16a",
-        "title": "TIL 3 - Git 체크리스트",
-        "short_description": "\n📒 깃(Git)으로 편리하게 버전관리, 협업을 하기 위해 배운 내용을 기반으로 Git 체크리스트를 만들어 봤다.\n깃은 버전 단위로 관리하기에 편리하다. 참고로 해당 경로나 위치를 신경 안 써 헤매는 경우가 있는데 경로 지정은 정말 중요하다는 것 기억하자!\n\n📄 버전 관리하기\n|Question|\n|:--:|\n\n|Answer|\n|:--:|\n사용자의 아이디...",
-        "thumbnail": "https://images.velog.io/images/lerrybe/post/b2c90604-1b20-4f92-8a47-e504d63fb3a5/TIL.jpeg",
-        "likes": 25,
+        "id": "f4267d71-0097-49ca-b0c7-c2a24ee4dff8",
+        "title": "[AI 모델 탐험기] #7 한글 버전의 GPT-2, KoGPT2",
+        "short_description": "KoGPT2, KoGPT2-Chatbot, KoGPT2-Dino( 🦕)를 무한으로 즐겨보세요~",
+        "thumbnail": "https://images.velog.io/images/yeop2/post/834a9f2f-80e0-469d-b434-1e7347007bfe/kogpt2.png",
+        "likes": 6,
         "user": {
-          "id": "71d2b436-b20f-4ea9-8d5f-6e6ad3a3faeb",
-          "username": "lerrybe",
+          "id": "4ea284b8-3948-4fb9-bfc9-4844d6848318",
+          "username": "yeop2",
           "profile": {
-            "id": "efbfb54c-a10d-497a-b538-497d8b6c3983",
-            "thumbnail": "https://images.velog.io/images/lerrybe/profile/d9fbe9f6-ee2c-44da-9902-3424270027f8/프로필.png",
+            "id": "0c6428c8-a906-451d-8c1f-cd102592cd5e",
+            "thumbnail": "https://images.velog.io/images/yeop2/profile/bed295b5-8d2b-4cc2-afc7-831314a07c79/KakaoTalk_Photo_2021-04-09-13-26-15.jpeg",
             "__typename": "UserProfile"
           },
           "__typename": "User"
         },
-        "url_slug": "TIL-3-Git-체크리스트",
-        "released_at": "2021-04-01T19:54:16.109Z",
-        "updated_at": "2021-05-12T17:06:14.972Z",
-        "comments_count": 3,
-        "tags": ["TIL", "basic"],
+        "url_slug": "AI-모델-탐험기-7-한글-버전의-GPT-2-KoGPT2",
+        "released_at": "2021-05-18T03:31:38.633Z",
+        "updated_at": "2021-05-21T16:09:22.474Z",
+        "comments_count": 2,
+        "tags": ["GPT2", "koGPT2", "누구나 AI", "인공지능"],
         "is_private": false,
         "__typename": "Post"
       },
       {
-        "id": "5d362f03-87f4-472a-9d35-5646ce3bde9e",
-        "title": "[React] TODO LIST",
-        "short_description": "React - Todo List ",
-        "thumbnail": "https://images.velog.io/images/proshy/post/8ab71390-2a29-4a6b-9d79-ece1dade6036/Todo List.gif",
-        "likes": 9,
+        "id": "f2c5c1bd-d4c1-4b2f-b469-fa062c050957",
+        "title": "마음가짐",
+        "short_description": "\"항상 대비하라.\" \n\n어떤 목적을 수행하기 위한 단단한 마음가짐이 있다면, 목표 달성을 위한 행동에 망설임은 사라집니다.\n\n이와 같은 마음가짐을 가슴 속에 새기고, 열심히 준비하고 대비하는 모습을 제 벨로그에 하나하나 기록해보겠습니다.",
+        "thumbnail": "https://images.velog.io/images/shitaikoto/post/d849ae35-723b-4772-823d-0bb7db0fa70f/c79d3467c586dc7ca8e8232b49a848ab1691444865ba5a853e046ada60084cf9.png",
+        "likes": 7,
         "user": {
-          "id": "8830b2ec-0ac9-4f7d-bf9f-d20d64f2cfb0",
-          "username": "proshy",
+          "id": "c2e36898-703f-4182-a856-3ac07b78cd4c",
+          "username": "shitaikoto",
           "profile": {
-            "id": "2f45f305-60c7-40c6-9393-c463c9a4d5b1",
-            "thumbnail": "https://images.velog.io/images/proshy/profile/c512f593-665f-4541-ae9d-42c1303d90eb/social.png",
+            "id": "206d10b4-9bbd-430c-aa6a-50cf1617bf62",
+            "thumbnail": "https://images.velog.io/images/shitaikoto/profile/d12f70d3-72b0-4cde-9aca-e086c9e21a11/KakaoTalk_20210321_010157691.jpg",
             "__typename": "UserProfile"
           },
           "__typename": "User"
         },
-        "url_slug": "React-TODO-LIST",
-        "released_at": "2021-04-18T03:37:42.388Z",
-        "updated_at": "2021-05-12T16:14:53.865Z",
+        "url_slug": "preparation",
+        "released_at": "2021-05-15T15:20:59.452Z",
+        "updated_at": "2021-05-21T15:41:50.588Z",
+        "comments_count": 2,
+        "tags": ["Shitaikoto", "front end", "web"],
+        "is_private": false,
+        "__typename": "Post"
+      },
+      {
+        "id": "219ea648-7c67-437c-a4d3-e2b8d64e07ee",
+        "title": "🤔 게시물 \"좋아요\" 여부를 어떻게 설계할까?",
+        "short_description": "RESTful API 설계를 위해 노력한 내용",
+        "thumbnail": "https://images.velog.io/images/heunyam/post/f644269c-4f75-4991-a5e0-bc22b4619d38/image.png",
+        "likes": 7,
+        "user": {
+          "id": "84ce42f0-e8dc-11e9-a070-ff378cd8e702",
+          "username": "heunyam",
+          "profile": {
+            "id": "85142590-e8dc-11e9-a070-ff378cd8e702",
+            "thumbnail": "https://images.velog.io/images/heunyam/profile/2dd93c34-3233-4563-b584-e44bc2a5d3bc/cat_sleep.png",
+            "__typename": "UserProfile"
+          },
+          "__typename": "User"
+        },
+        "url_slug": "API-설계-게시물에-대한-좋아요-여부",
+        "released_at": "2021-05-16T14:19:18.470Z",
+        "updated_at": "2021-05-21T14:57:15.635Z",
+        "comments_count": 1,
+        "tags": [],
+        "is_private": false,
+        "__typename": "Post"
+      },
+      {
+        "id": "1e2415a7-3bcd-464e-9939-3315eca7648f",
+        "title": "OAuth 찍먹해보기 (with POSTMAN실습 )",
+        "short_description": "Authorizing OAuth Apps 이거 따라한건데, 막연할꺼같아 POSTMAN으로 실습까지 곁들어 봄OAuth Application 등록하기client_id  client_secret 발급받기code 발급받기access_token발급먼저 깃허브에 로그인해주세요우",
+        "thumbnail": "https://images.velog.io/images/d-h-k/post/a50af8ad-93f4-4114-bc52-805f28fd3c14/image.png",
+        "likes": 6,
+        "user": {
+          "id": "3f251e9a-5e12-420f-96e9-38ea7d7a13a2",
+          "username": "d-h-k",
+          "profile": {
+            "id": "14e3120f-e548-4b9e-8b3a-5dd6a056b813",
+            "thumbnail": "https://images.velog.io/images/d-h-k/profile/e29e9a2e-f3d0-43a5-aa24-c8aa4d4fcf4a/iOS 이미지.jpg",
+            "__typename": "UserProfile"
+          },
+          "__typename": "User"
+        },
+        "url_slug": "Oauth-찍먹해보기-with-POSTMAN실습",
+        "released_at": "2021-05-19T13:09:05.925Z",
+        "updated_at": "2021-05-21T15:58:21.672Z",
         "comments_count": 6,
-        "tags": ["React", "project", "todo list"],
+        "tags": ["codesquad"],
+        "is_private": false,
+        "__typename": "Post"
+      },
+      {
+        "id": "5eb0dbdb-8c16-4413-ae04-a1bc210607d7",
+        "title": "FE 지식_1. webStorage란?",
+        "short_description": "브라우저에도 창고가 있다. 아주 좋으시겠다. ",
+        "thumbnail": "https://images.velog.io/images/ghdtjrrl94/post/56de3d87-1206-4ba3-863e-955c65da0a65/image (2).png",
+        "likes": 7,
+        "user": {
+          "id": "4eac5092-b7d1-4630-a4d8-2a5a0c15c56a",
+          "username": "ghdtjrrl94",
+          "profile": {
+            "id": "0ace371c-6e7f-4d15-b31f-a1df3e34bfed",
+            "thumbnail": "https://images.velog.io/images/ghdtjrrl94/profile/e7cf3a15-10e7-48c2-894b-5b5f71747a5c/social.jpeg",
+            "__typename": "UserProfile"
+          },
+          "__typename": "User"
+        },
+        "url_slug": "FE-지식1.-webStorage",
+        "released_at": "2021-05-17T13:38:08.976Z",
+        "updated_at": "2021-05-21T13:25:09.514Z",
+        "comments_count": 0,
+        "tags": ["FE지식"],
+        "is_private": false,
+        "__typename": "Post"
+      },
+      {
+        "id": "6a54c377-1656-4ab1-b1c9-c868d2f4b837",
+        "title": "[Paper Review] (2009, IEEE) Matrix Factorization Techniques for Recommender Systems",
+        "short_description": "MATRIX FACTORIZATION TECHNIQUES FOR RECOMMENDER SYSTEMS\nYehuda Koren, Yahoo Research Robert Bell and Chris Volinsky, AT&T Labs—Research(2009)\n\n1. Reco",
+        "thumbnail": "https://images.velog.io/images/tobigs-recsys/post/4f831044-8235-45b0-881b-3ee3940275b1/thumb1.png",
+        "likes": 6,
+        "user": {
+          "id": "67f0a4a1-ac8f-49d1-bf82-bbbefcfa1d8a",
+          "username": "tobigs-recsys",
+          "profile": {
+            "id": "94371653-0846-4107-afd1-3d873fa74c6e",
+            "thumbnail": "https://images.velog.io/images/tobigs-recsys/profile/ecb87393-0f20-4935-858a-cae245ec39b2/투빅스로고+귀엽게+색3.png",
+            "__typename": "UserProfile"
+          },
+          "__typename": "User"
+        },
+        "url_slug": "MATRIX-FACTORIZATION-TECHNIQUES-FOR-RECOMMENDER-SYSTEM",
+        "released_at": "2021-05-15T03:37:40.020Z",
+        "updated_at": "2021-05-21T08:53:13.012Z",
+        "comments_count": 5,
+        "tags": ["Matrix Factorization", "Recommender System"],
+        "is_private": false,
+        "__typename": "Post"
+      },
+      {
+        "id": "fc2267f1-cd8a-466c-886c-de3ab8da5eae",
+        "title": "[Paper Review] (2018, IEEE) Self-Attentive Sequential Recommendation (SASRec)",
+        "short_description": "작성자: 이예지\n\nOverview\n\n해당 논문은 기존의 sequential recommender인 Markov Chains(MC)과 RNN 계열의 단점을 동시에 보완하고자 하였습니다.\n이를 위해 당시 NLP task에서 sota인 Transforme",
+        "thumbnail": "https://images.velog.io/images/tobigs-recsys/post/5e8d9734-085f-4d32-8cd4-9e9628d75a5b/thumb3.png",
+        "likes": 6,
+        "user": {
+          "id": "67f0a4a1-ac8f-49d1-bf82-bbbefcfa1d8a",
+          "username": "tobigs-recsys",
+          "profile": {
+            "id": "94371653-0846-4107-afd1-3d873fa74c6e",
+            "thumbnail": "https://images.velog.io/images/tobigs-recsys/profile/ecb87393-0f20-4935-858a-cae245ec39b2/투빅스로고+귀엽게+색3.png",
+            "__typename": "UserProfile"
+          },
+          "__typename": "User"
+        },
+        "url_slug": "SASRec",
+        "released_at": "2021-05-15T03:45:05.270Z",
+        "updated_at": "2021-05-21T08:53:56.622Z",
+        "comments_count": 4,
+        "tags": [
+          "Attention",
+          "Recommender System",
+          "SASRec",
+          "Sequential Recommendation",
+          "self-attention"
+        ],
+        "is_private": false,
+        "__typename": "Post"
+      },
+      {
+        "id": "7f801241-cb2c-4e00-b4e9-dff04ac7db8b",
+        "title": "게시글에 좋아요 표시 여부를 깔끔하게 제공하는 API 만들기",
+        "short_description": "isLike, isFollowing 이런 API로 과연 괜찮을까? 좋아요와 팔로우 같은 관계를 RESTful하게 제공하기 위한 고민한 경험에 대해서 소개한다.",
+        "thumbnail": "https://images.velog.io/images/yeoul/post/e1182075-27cd-48e6-a57d-176a4c3d2e23/rest.png",
+        "likes": 6,
+        "user": {
+          "id": "5b0c7bfc-3614-4563-b646-d206c197392f",
+          "username": "yeoul",
+          "profile": {
+            "id": "6be716d3-387b-4c70-b8b0-ba602fe257b3",
+            "thumbnail": null,
+            "__typename": "UserProfile"
+          },
+          "__typename": "User"
+        },
+        "url_slug": "게시글에-좋아요-표시-여부를-깔끔하게-제공하는-API-만들기",
+        "released_at": "2021-05-18T01:48:52.630Z",
+        "updated_at": "2021-05-21T15:03:41.073Z",
+        "comments_count": 0,
+        "tags": ["개발", "더 자세하게", "방법론"],
+        "is_private": false,
+        "__typename": "Post"
+      },
+      {
+        "id": "1e623235-82e3-447a-9b3c-c9d7f9e5804e",
+        "title": "[DevOps] Docker란 무엇인가?",
+        "short_description": "일반적으로 서버를 관리한다는건 복잡하고 어려우며 고급 개발자들의 섬세한 작업이 필요한 영역입니다. 예전에는 회사에서 사용하는 리눅스와 오라클 버전이 딱 정해져 있었고, 버전을 업데이트 하는것은 엄청난 리스크였기 때문에 서버는 최대한 건드리지 않고 그대로 두는게 최선의 ",
+        "thumbnail": "https://images.velog.io/images/sms8377/post/6c69c684-08ef-45a6-8f86-30422d99b129/image.png",
+        "likes": 7,
+        "user": {
+          "id": "e8cc9def-3891-46ea-b8c6-f3050201ccfa",
+          "username": "sms8377",
+          "profile": {
+            "id": "b40ff0a8-857b-44f6-9d77-7c26c7eb59be",
+            "thumbnail": "https://images.velog.io/images/sms8377/profile/f7482f5e-e711-4011-a7fa-5f864817a4eb/social.jpeg",
+            "__typename": "UserProfile"
+          },
+          "__typename": "User"
+        },
+        "url_slug": "DevOps-Docker란-무엇인가",
+        "released_at": "2021-05-16T16:09:46.197Z",
+        "updated_at": "2021-05-21T16:20:46.714Z",
+        "comments_count": 0,
+        "tags": ["DepOps", "docker"],
+        "is_private": false,
+        "__typename": "Post"
+      },
+      {
+        "id": "665fffd0-433d-4b38-949f-f113d96d1e0b",
+        "title": "focus blur 효과로 돋보기 놀이하기",
+        "short_description": "이번 시간에는 focus blur 효과를 이용해 돋보기 놀이를 해보자",
+        "thumbnail": "https://images.velog.io/images/gicomong/post/ddbfe353-b5d8-49fa-b9bb-1af85b70bb35/gif (5).gif",
+        "likes": 14,
+        "user": {
+          "id": "62e13441-94db-4dff-904a-794bfd30b782",
+          "username": "gicomong",
+          "profile": {
+            "id": "8c773a08-d67b-405a-936e-9391f635f6f7",
+            "thumbnail": "https://images.velog.io/images/gicomong/profile/5774970e-7d94-41a7-ac7b-e2d7b5962706/title.png",
+            "__typename": "UserProfile"
+          },
+          "__typename": "User"
+        },
+        "url_slug": "focus-blur-효과로-돋보기-놀이하기",
+        "released_at": "2021-05-08T13:45:16.903Z",
+        "updated_at": "2021-05-21T15:51:23.166Z",
+        "comments_count": 4,
+        "tags": ["clip-path", "css setproperty", "focus blur", "focus css"],
+        "is_private": false,
+        "__typename": "Post"
+      },
+      {
+        "id": "bf913957-d480-4487-948d-c03baaa003fe",
+        "title": "[Classification] EfficientNet : Rethinking  Model Scaling for Convolutional Neural Networks 논문 리뷰",
+        "short_description": "투빅스 15기 오주영",
+        "thumbnail": "https://images.velog.io/images/mink7878/post/ab27c7de-7ae4-44e1-92ef-7d63a374d568/tobigs배경_short (2).jpg",
+        "likes": 5,
+        "user": {
+          "id": "386aacc8-993f-4646-9ff2-2fbb4f187905",
+          "username": "mink7878",
+          "profile": {
+            "id": "5e545a84-2f33-48f8-93cb-c4f8e1ac85b0",
+            "thumbnail": "https://images.velog.io/images/mink7878/profile/73bf2133-a9d0-4b75-b1c1-816945bbd1eb/투빅스로고+귀엽게+색.png",
+            "__typename": "UserProfile"
+          },
+          "__typename": "User"
+        },
+        "url_slug": "Classification-EfficientNet-Rethinking-Model-Scaling-for-Convolutional-Neural-Networks-논문-리뷰",
+        "released_at": "2021-05-19T06:08:15.171Z",
+        "updated_at": "2021-05-21T15:49:18.756Z",
+        "comments_count": 5,
+        "tags": ["Classification", "EfficientNet", "이미지세미나", "투빅스"],
         "is_private": false,
         "__typename": "Post"
       }
