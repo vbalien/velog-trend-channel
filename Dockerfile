@@ -5,7 +5,7 @@ WORKDIR /app
 
 RUN set -x \
   && apk add --no-cache \
-  dcron
+  dcron bash
 
 RUN touch /var/log/crawl.log
 
@@ -25,7 +25,8 @@ RUN vr build
 ENV MONGO_HOST="" \
   BOT_TOKEN="" \
   CHANNEL="" \
-  SCHEDULE="0 * * * *"
+  SCHEDULE="0 * * * *" \
+  SHELL="/bin/bash"
 
 COPY ./docker-entrypoint.sh /
 ENTRYPOINT /docker-entrypoint.sh
