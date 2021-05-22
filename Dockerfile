@@ -25,8 +25,7 @@ RUN vr build
 ENV MONGO_HOST="" \
   BOT_TOKEN="" \
   CHANNEL="" \
-  SCHEDULE="0 * * * *" \
-  SHELL="/bin/bash"
+  SCHEDULE="0 * * * *"
 
 COPY ./docker-entrypoint.sh /
 ENTRYPOINT /docker-entrypoint.sh
