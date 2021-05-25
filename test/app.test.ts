@@ -49,7 +49,7 @@ Deno.test("make message", async () => {
   const trendFeed: TrendFeed = JSON.parse(await loadFixture("data.json")).data;
   const firstNode = trendFeed.trendingPosts[0];
   const msg = app["makeMessage"](firstNode);
-
+  const makeTagUrl = app["makeTagUrl"];
   assertStringIncludes(msg, firstNode.title, "Expected has title in message");
   assertStringIncludes(msg, firstNode.url_slug, "Expected has url in message");
   assertStringIncludes(
@@ -59,7 +59,7 @@ Deno.test("make message", async () => {
   );
   assertStringIncludes(
     msg,
-    firstNode.tags.map((t) => `#${t}`).join(" "),
+    firstNode.tags.map(makeTagUrl).join(" "),
     "Expected has tags in message"
   );
 });

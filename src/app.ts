@@ -40,16 +40,22 @@ export class App implements IApp {
     return `https://velog.io/@${post.user.username}/${post.url_slug}`;
   }
 
+  private makeTagUrl(tag: string) {
+    return `<a href="https://velog.io/tags/${tag
+      .split(" ")
+      .join("-")}">#${tag}</a>`;
+  }
+
   private async getFeed(): Promise<TrendFeed> {
     const res = await this.fetchData();
     return res.data;
   }
 
   private makeMessage(post: Post) {
-    const tags = post.tags.map((t) => `#${t}`).join(" ");
-    return `<b>${post.title}</b>\n❤️ ${
-      post.likes
-    }\n${tags}\n\n🔗 ${this.makePostUrl(post)}`;
+    const tags = post.tags.map(this.makeTagUrl).join(" ");
+    return `<b>${post.title}</b>\n❤️ ${post.likes}\n🔗 ${this.makePostUrl(
+      post
+    )}\n\n${tags}`;
   }
 
   private makeMessageRequest(post: Post) {
