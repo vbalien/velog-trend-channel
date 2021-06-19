@@ -1,4 +1,4 @@
-FROM hayd/deno:latest
+FROM denoland/deno:alpine
 LABEL maintainer="Jisu Kim <webmaster@alien.moe>"
 
 WORKDIR /app
