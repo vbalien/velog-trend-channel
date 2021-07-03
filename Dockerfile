@@ -5,7 +5,10 @@ WORKDIR /app
 
 RUN set -x \
   && apk add --no-cache \
-  dcron bash
+  dcron bash tzdata
+
+# Set timezone
+RUN cp /usr/share/zoneinfo/Asia/Seoul /etc/localtime
 
 RUN touch /var/log/crawl.log
 
